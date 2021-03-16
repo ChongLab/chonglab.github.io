@@ -13,6 +13,6 @@ We are conducting cutting-edge bioinformatics and genomics research with a focus
 
 The advances of sequencing and other bio-technologies are revolutionizing our understanding of biology to an unprecedented extent. Our lab aims to take full advantage of these technologies to explore meaningful biological insights from our genomes, both healthy and unhealthy ones. The ultimate goal is to improve the health of every individual with our expertise in Bioinformatics.
 
-[Informatics](https://www.uab.edu/medicine/informatics/)
-[SOM](https://www.uab.edu/medicine/home/)
-[UAB](https://www.uab.edu/home/)
+[Informatics]:https://www.uab.edu/medicine/informatics/
+[SOM]:https://www.uab.edu/medicine/home/
+[UAB]:https://www.uab.edu/home/
