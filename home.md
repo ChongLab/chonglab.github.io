@@ -6,7 +6,7 @@ subtitle: Making sense of biology using Bioinformatics
 
 ### Who we are
 
-We are a computational lab in [Informatics Institute][Informatics] at [School of Medicine][SOM] at [University of Alabama at Birmingham][UAB]. 
+We are a computational lab in the [Informatics Institute][Informatics] at the [School of Medicine][SOM] of [University of Alabama at Birmingham][UAB]. 
 We are conducting cutting-edge bioinformatics and genomics research with a focus on new sequencing platforms, including PacBio, Nanopore, 10X Genomics, etc. 
 
 ### Vision of the lab
