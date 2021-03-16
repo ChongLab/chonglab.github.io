@@ -4,13 +4,15 @@ title: Chong Lab
 subtitle: Making sense of biology using Bioinformatics
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+### Who we are
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+We are a computational lab in Informatics Institute [Informatics] at School of Medicine [SOM] at University of Alabama at Birmingham [UAB]. 
+We are conducting cutting-edge bioinformatics and genomics research with a focus on new sequencing platforms, including PacBio, Nanopore, 10X Genomics, etc. 
 
-What else do you need?
+### Vision of the lab
 
-### My story
+The advances of sequencing and other bio-technologies are revolutionizing our understanding of biology to an unprecedented extent. Our lab aims to take full advantage of these technologies to explore meaningful biological insights from our genomes, both healthy and unhealthy ones. The ultimate goal is to improve the health of every individual with our expertise in Bioinformatics.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+[Informatics](https://www.uab.edu/medicine/informatics/)
+[SOM](https://www.uab.edu/medicine/home/)
+[UAB](https://www.uab.edu/home/)
