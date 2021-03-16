@@ -15,12 +15,12 @@ author: Zechen Chong Lab
 
 navbar-links:
   Home: "home"
-  Research: "Research"
-  People: "People"
-  Publications: "Publications"
-  Software: "Software"
-  Positions: "Positions"
-  Contact: "Contact"
+  Research: "research"
+  People: "people"
+  Publications: "publications"
+  Software: "software"
+  Positions: "positions"
+  Contact: "contact"
 
 # --- Logo --- #
 
@@ -33,7 +33,7 @@ round-avatar: false
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+title-img: screenshot.png
 
 
 # --- Footer social media links --- #
