@@ -33,7 +33,7 @@ round-avatar: false
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-title-img: screenshot.png
+# title-img: screenshot.png
 
 
 # --- Footer social media links --- #
@@ -43,8 +43,8 @@ title-img: screenshot.png
 social-network-links:
   #email: "zchong\@uab.edu"
   #facebook: deanattali
-  #github: "chonglab"
-  #twitter: "chongzechen"
+  github: "czc"
+  twitter: "chongzechen"
   #patreon: DeanAttali
   #youtube: c/daattali
 #  medium: yourname
