@@ -225,8 +225,10 @@ exclude:
   - screenshot.png
   - docs/
 
-include:
-  - _pages
+
+collections:
+  _pages:
+     output: true
 
 plugins:
   - jekyll-paginate
