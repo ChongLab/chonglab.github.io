@@ -14,7 +14,7 @@ author: Zechen Chong Lab
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Home: "/"
+  Home: "home"
   Research: "research"
   People: "people"
   Publications: "publications"
