@@ -1,0 +1,47 @@
+- tag: Inspector_protocol
+  name: Inspector_protocol
+  description: Scenario show cases for genome assembly based on long-read sequencing data using Inspector.
+  download2: https://github.com/ChongLab/Inspector_protocol
+
+- tag: Inspector
+  name: Inspector
+  description: A reference-free assembly evaluator.
+  download2: https://github.com/ChongLab/Inspector
+
+- tag: FusionSeeker
+  name: FusionSeeker
+  description: A gene fusion caller for long-read single-molecular sequencing data.
+  download2: https://github.com/ChongLab/FusionSeeker
+
+- tag: DeBreak
+  name: DeBreak
+  description: A SV caller for long-read single-molecular sequencing data.
+  download2: https://github.com/ChongLab/DeBreak
+
+- tag: B-assembler
+  name: B-assembler
+  description: B-assembler is a snakemake-based pipeline for assembling bacterial genomes from long reads (nanopore or pacbio) or hybrid reads (long and short reads).
+  download2: https://github.com/ChongLab/B-assembler
+
+- tag: ClipSV
+  name: ClipSV
+  description: ClipSV is a novel method for SV detection based on read extension, spliced alignment, and local assembly. 
+  download2: https://github.com/ChongLab/ClipSV
+
+- tag: MRLR
+  name: MRLR
+  description: MRLR is a pipeline to identify meiotic recombination events using trio samples of whole genome 10X Genomics sequencing data.
+  download2: https://github.com/ChongLab/MRLR
+
+- tag: novoBreak
+  name: novoBreak
+  description: novoBreak is a tool used in cancer genomic studies to discover SV (both somatic and germline) breakpoints. It can report accurate breakpoints of Deletions (DEL), Duplications (DUP), Inversions (INV) and Translocations (TRA) (you should consider some of them are mobile elements insertions or templated insertions). For novel insertions, we may only report the breakpoints but not the inserted sequence. Please forget about novel insertions at the moment. We will work on that later. novoBreak was designed for Illumina paired-end data.
+  download2: https://github.com/ChongLab/nb_distribution
+
+- tag: rainbow
+  name: rainbow
+  description: Rainbow package consists of several programs used for RAD-seq related clustering and de novo assembly.
+  download2: https://github.com/ChongLab/rainbow
+
+
+

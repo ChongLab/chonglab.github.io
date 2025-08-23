@@ -1,0 +1,260 @@
+/* Ajout des styles personnalisés tout en respectant les variables du thème */
+
+/* Section hero */
+.hero {
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Header personnalisé */
+.header {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.header__title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer personnalisé */
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Default Navigation Menu (Desktop) */
+.navigation ul {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping on desktop */
+  justify-content: center; /* Center the items */
+  gap: 1rem; /* Space between items */
+  padding: 0;
+  margin: 0;
+  list-style: none; /* Remove bullets */
+}
+
+.navigation__item {
+  flex: none; /* Prevent items from stretching */
+  text-align: center; /* Center-align text */
+}
+
+.navigation__item a {
+  display: block;
+  padding: 0.5rem 1rem; /* Spacing for readability */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Mobile Menu Adjustments */
+@media (max-width: 768px) {
+  .navigation ul {
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center; /* Keep items centered */
+    gap: 0.5rem; /* Reduce spacing for compact layout */
+  }
+
+  .navigation__item {
+    flex: 1 1 auto; /* Adjust item width dynamically */
+    text-align: center; /* Center items on mobile */
+  }
+
+  .navigation__item a {
+    padding: 0.75rem; /* Larger touch target for mobile */
+    font-size: 1.25rem; /* Maintain font size */
+  }
+}
+
+
+
+
+/* Contenu principal */
+.main {
+  padding: 2rem;
+}
+
+/* Conteneur principal pour les membres */
+.team-container {
+  display: flex;
+  flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
+  gap: 2rem; /* Ajoute un espace uniforme entre les cartes */
+  justify-content: center; /* Centre les éléments horizontalement */
+}
+
+/* Carte individuelle de membre */
+.team-card {
+  display: flex;
+  flex-direction: column; /* Aligne les éléments verticalement */
+  align-items: center; /* Centre les éléments horizontalement */
+  background: var(--card-bg); /* Utilise une couleur de fond du thème */
+  border-radius: var(--border-radius); /* Coins arrondis */
+  padding: 1.5rem;
+  text-align: center;
+  max-width: 250px; /* Limite la largeur des cartes */
+  box-shadow: var(--box-shadow); /* Ombre pour un effet de profondeur */
+  transition: transform 0.3s ease; /* Animation au survol */
+}
+
+.team-card:hover {
+  transform: translateY(-5px); /* Légère élévation au survol */
+}
+
+/* Photo de chaque membre */
+.team-photo {
+  width: 150px; /* Taille fixe pour les photos */
+  height: 150px; /* Hauteur identique à la largeur */
+  object-fit: cover; /* Évite les déformations */
+  border-radius: 50%; /* Rend les photos circulaires */
+  margin-bottom: 1rem; /* Espace sous la photo */
+  border: 2px solid var(--border-color); /* Bordure autour des photos */
+}
+
+/* Nom du membre */
+.team-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Rôle du membre */
+.team-card h4 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: var(--text-secondary); /* Texte secondaire */
+}
+
+/* Description ou bio */
+.team-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* Réseaux sociaux */
+.team-socials {
+  margin-top: 1rem;
+}
+
+.team-socials .social-link {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  color: var(--primary); /* Utilise une couleur principale */
+  text-decoration: none;
+}
+
+.team-socials .social-link:hover {
+  color: var(--primary-dark); /* Change de couleur au survol */
+}
+/* Conteneur principal des partenaires */
+.partners-container {
+  display: flex;
+  flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
+  gap: 2rem; /* Ajoute un espacement uniforme entre les cartes */
+  justify-content: center; /* Centre les éléments horizontalement */
+}
+
+/* Carte individuelle de partenaire */
+.partner-card {
+  display: flex;
+  flex-direction: column; /* Aligne les éléments verticalement */
+  align-items: flex-start; /* Centre les éléments horizontalement */
+  background: var(--card-bg); /* Utilise une couleur de fond du thème */
+  border-radius: var(--border-radius); /* Coins arrondis */
+  padding: 1.5rem;
+  text-align: center;
+  max-width: 250px; /* Limite la largeur des cartes */
+  box-shadow: var(--box-shadow); /* Ombre pour un effet de profondeur */
+  transition: transform 0.3s ease; /* Animation au survol */
+}
+
+.partner-card:hover {
+  transform: translateY(-5px); /* Légère élévation au survol */
+}
+
+/* Logo de chaque partenaire */
+.partner-logo {
+  width: 150px; /* Taille maximale pour les logos */
+  height: auto; /* Conserve les proportions */
+  object-fit: contain; /* Évite les déformations */
+  margin-bottom: 1rem; /* Espace sous le logo */
+}
+
+/* Nom du partenaire */
+.partner-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Description ou rôle */
+.partner-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* Lien vers le site du partenaire */
+.partner-link {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: var(--primary); /* Couleur principale */
+  text-decoration: none;
+}
+
+.partner-link:hover {
+  text-decoration: underline; /* Style au survol */
+}
+
+
+/* Conteneur principal du footer des financeurs */
+.financeurs-footer {
+  text-align: center; /* Centre le titre horizontalement */
+  padding: 1rem 0; /* Ajoute un espacement autour de la section */
+}
+
+/* Titre des financeurs */
+.financeurs-footer h4 {
+  font-size: 1.2rem; /* Ajuste la taille du texte */
+  margin-bottom: 1rem; /* Ajoute un espace sous le titre */
+}
+
+/* Conteneur des images */
+.financeurs-footer .financeurs-list {
+  display: flex; /* Active un modèle flex */
+  justify-content: center; /* Centre les images horizontalement */
+  align-items: center; /* Centre les images verticalement */
+  flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
+  gap: 1rem; /* Ajoute un espacement uniforme entre les images */
+}
+
+/* Styles pour chaque financeur */
+.financeurs-footer .financeur-item {
+  display: inline-block; /* Garde les images côte à côte */
+  transition: transform 0.3s ease; /* Animation au survol */
+}
+
+/* Images des financeurs */
+.financeurs-footer .financeur-item img {
+  max-width: 100px; /* Limite la largeur des images */
+  max-height: 50px; /* Limite la hauteur des images */
+  height: auto; /* Garde les proportions des images */
+}
+
+/* Effet au survol */
+.financeurs-footer .financeur-item:hover img {
+  transform: scale(1.05); /* Légère mise en avant au survol */
+}
+
+
+.software-description {
+  font-size: 1.25rem;
+}
+
+

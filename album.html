@@ -1,0 +1,21 @@
+---
+layout: page
+permalink: /album/
+---
+
+
+<div class="album-page">
+  <h1>Album</h1>
+
+  {% for item in site.data.album %}
+    <div style="margin-bottom: 40px;">
+      <img src="/{{ item.photo }}" alt="{{ item.descript }}" style="width: 50%; height: auto; border-radius: 8px;" />
+      <p style="margin-top: 10px; font-weight: bold;">{{ item.descript }}</p>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- Back to Top Button -->
+<div style="text-align: center; margin-top: 3em;">
+  <a href="#top" style="font-weight: bold; text-decoration: underline;">Back to Top</a>
+</div>

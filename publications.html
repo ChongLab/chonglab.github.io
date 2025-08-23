@@ -1,0 +1,53 @@
+---
+layout: page
+permalink: /publications/
+---
+
+<div class="publications">
+  <h1>Publications</h1>
+  <!-- Scholar Link -->
+  <p>
+    Visit <a href="https://scholar.google.com/citations?hl=en&user=0gY9Qm4AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a> for more information.
+  </p>
+  
+
+
+<p>
+  <a href="#all">All</a>
+  {% assign years = site.data.publication | map: "year" | uniq | sort | reverse %}
+  {% for y in years %}
+    | <a href="#{{ y }}">{{ y }}</a>
+  {% endfor %}
+</p>
+
+<div id="all">
+  {% for y in years %}
+    <h3 id="{{ y }}">{{ y }}</h3>
+    <ul>
+      {% for pub in site.data.publication %}
+        {% if pub.year == y %}
+          <li>
+            <p style="font-size: 1.15rem;">
+              {{ pub.author }}
+            </p>
+            <em style="font-size: 1.15rem;">
+              {{ pub.title }}
+            </em>
+            <br>
+            <strong style="font-size: 1.15rem;">
+              {{ pub.journal }}
+            </strong>
+            <br>
+            <a href="{{ pub.doi }}" target="_blank" style="font-size: 1.15rem;">[Abstract]</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
+
+
+<!-- Back to Top Button -->
+<div style="text-align: center; margin-top: 3em;">
+  <a href="#top" style="font-weight: bold; text-decoration: underline;">Back to Top</a>
+</div>

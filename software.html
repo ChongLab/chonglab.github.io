@@ -1,0 +1,47 @@
+---
+layout: page
+permalink: /software/
+---
+
+<div class="publications">
+  <h1>Software</h1>
+  
+  <!-- Scholar Link -->
+  <p>
+    Visit <a href="https://github.com/ChongLab" target="_blank">Zechen Chong Lab Github</a> for full list.
+  </p>
+
+  <!-- Navigation Tags -->
+  <p>
+    <a href="#all">All</a>
+    {% assign tags = site.data.software | map: "tag" %}
+    {% for tag in tags %}
+      | <a href="#{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+  </p>
+  
+  <br>
+
+  <!-- Software List -->
+  <div id="all">
+    {% for software in site.data.software %}
+      <h3 id="{{ software.tag }}">{{ software.name }}</h3>
+      <ul>
+        <li>
+          <p style="font-size: 1.25rem;">
+            {{ software.description }}
+          </p>
+          <p>
+            The source code and documentation can be downloaded 
+            <a href="{{ software.download2 }}" target="_blank">[here]</a>.
+          </p>
+        </li>
+      </ul>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Back to Top Button -->
+<div style="text-align: center; margin-top: 3em;">
+  <a href="#top" style="font-weight: bold; text-decoration: underline;">Back to Top</a>
+</div>

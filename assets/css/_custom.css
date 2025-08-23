@@ -1,0 +1,45 @@
+.image-text-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.image-text-row img {
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-text-content {
+  flex: 1;
+  min-width: 250px;
+  color: #333;
+}
+
+.team-images {
+  display: flex !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
+}
+
+.team-images .team-image {
+  width: 48% !important;
+  height: auto !important;
+  object-fit: cover !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

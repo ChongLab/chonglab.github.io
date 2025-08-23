@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="publications">
+  <h1>News</h1>
+
+  {% assign news_items = page.news_items %}
+  {% for news_item in news_items %}
+    <div style="margin-bottom: 30px;">
+      <strong>{{ news_item.title }}</strong><br>
+      {% if news_item.description %}
+        <p>{{ news_item.description }}</p>
+      {% endif %}
+      {% if news_item.photo %}
+        <img src="{{ news_item.photo }}" alt="News Image" style="max-width: 300px; display: block; margin-top: 10px;">
+      {% endif %}
+      {% if news_item.link %}
+        <p><a href="{{ news_item.link }}" target="_blank">More Info</a></p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+<!-- Navigation -->
+<div>
+  {% if page.prev_page %}
+    <a href="{{ page.prev_page }}">Previous</a>
+  {% endif %}
+  {% if page.next_page %}
+    <a href="{{ page.next_page }}">Next</a>
+  {% endif %}
+</div>

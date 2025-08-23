@@ -1,0 +1,59 @@
+---
+# Jekyll reconnaît le fichier comme un fichier SCSS à compiler
+---
+
+@import "skins/{{ site.text_skin | default: site.data.variables.default.text_skin }}";
+@import "skins/ocean";
+@import "skins/highlight/{{ site.highlight_theme | default: site.data.variables.default.highlight_theme }}";
+
+@import "common/variables";
+@import "common/function";
+@import "common/classes";
+@import "common/reset";
+@import "common/print";
+@import "common/components/button";
+@import "common/components/image";
+@import "common/components/card";
+@import "common/components/gallery";
+@import "common/components/hero";
+@import "common/components/menu";
+@import "common/components/modal";
+@import "common/components/toc";
+@import "common/components/item";
+@import "common/components/swiper";
+
+@import "animate/fade-in";
+@import "animate/fade-in-down";
+@import "animate/fade-in-up";
+
+@import "components/main";
+@import "components/header";
+@import "components/footer";
+@import "components/article-list";
+@import "components/article-info";
+@import "components/article-header";
+@import "components/article-content";
+@import "components/article-footer";
+@import "components/author-links";
+@import "components/author-profile";
+@import "components/tags";
+@import "components/search";
+@import "components/lightbox";
+@import "components/extensions";
+
+@import "additional/alert";
+@import "additional/tag";
+@import "additional/photo-frame";
+
+@import "layout/base";
+@import "layout/page";
+
+@import "layout/article";
+@import "layout/articles";
+@import "layout/archive";
+@import "layout/home";
+@import "layout/landing";
+@import "layout/404";
+
+@import "custom";
+

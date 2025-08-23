@@ -1,0 +1,280 @@
+
+- year: 2017
+  month:  MARCH
+  title: "Chong lab officially launched!" 
+  description: "Zechen Chong lab is officially launched in Informatics Institute at School of Medicine of UAB."
+
+- year: 2017
+  month: APRIL
+  title: "Paper published in Science Advances" 
+  description: "Collaborating with Dr. Gordon Mills’ lab at MD Anderson, a paper published in Science Advances, “A murine preclinical syngeneic transplantation model for breast cancer precision medicine”."
+
+- year: 2017
+  month: JUNE
+  title: "novoBreak released on CGC"
+  description: "With the help of the Bioinformatics team from Seven Bridges, we optimized and released novoBreak as a public workflow on their Cancer Genomics Cloud (CGC). The story was posted on the Seven Bridges blog as well. "
+
+- year: 2017
+  month: AUGUST
+  title: "Data Fellowship award!"
+  description: "We are funded for the Institutional Data Fellowship by the Institute for Precision Cardiovascular Medicine of American Heart Association."
+
+- year: 2017
+  month: SEPTEMBER
+  title: "Welcome Peng"
+  description: "Dr. Peng Xu joins the lab as a Postdoc Fellow. Welcome Dr. Xu!"
+
+- year: 2017
+  month: SEPTEMBER
+  title: "Zechen to organize PowerTalk"
+  description: "Zechen starts to organize UAB Bioinformatics PowerTalk seminar series. "
+
+- year: 2017
+  month: NOVEMBER
+  title: "Welcome Ming"
+  description: "Prof. Ming Ye joins the lab as a Visiting Scholar. Welcome Dr. Ye."
+
+- year: 2018
+  month: MARCH
+  title: "Welcome Maggi"
+  description: "Ms. Yu Chen (Maggi) joins the lab as a GGB theme graduate student. Welcome Maggi."
+
+- year: 2018
+  month: JULY
+  title: "MRLR preprint"
+  description: "The first preprint manuscript of the lab is available at bioRxiv.  Fingers crossed! "
+
+- year: 2018
+  month: AUGUST
+  title: "Platform talk at ASHG!"
+  description: "Our abstract has been accepted for a PLATFORM (oral) presentation at the 2018 American Society of Human Genetics Annual Meeting in San Diego."
+
+- year: 2018
+  month: AUGUST
+  title: "Pilot award!"
+  description: "We have received a pilot research award from UAB Obesity Health Disparities Research Center (OHDRC)."
+
+- year: 2018
+  month: AUGUST
+  title: "Poster award!"
+  description: "Peng’s poster won 2nd place in the ATTIS 18 Poster Competition. Congratulations!"
+
+- year: 2018
+  month: SEPTEMBER
+  title: "Supplementary Award!"
+  description: "In collaboration with Dr. Greg Cooper at HudsonAlpha, we are awarded a CSER supplementary funding."
+
+- year: 2019
+  month: MAY
+  title: "PPA-assembler accepted!"
+  description: "Collaborating with Dr. Da Yan’s group, a paper is accepted in IEEE/ACM Transactions on Computational Biology and Bioinformatics, “Scalable De Novo Genome Assembly Using a Pregel-Like Graph-Parallel System”."
+
+- year: 2019
+  month: JUNE
+  title: "MRLR accepted in Bioinformatics!"
+  description: "Our paper, “MRLR: unraveling high-resolution meiotic recombination by linked reads”, is accepted in Bioinformatics. "
+
+- year: 2019
+  month: JUNE
+  title: "AHA Research Leaders Academy"
+  description: "Zechen was invited to attend (American Heart Association) AHA Research Leaders Academy."
+
+- year: 2019
+  month: JULY
+  title: "Zechen appointed in MHRC"
+  description: "Zechen was appointed as Associate Scientist of the UAB Minority Health and Health Disparities Research Center (MHRC)."
+
+- year: 2019
+  month: AUGUST
+  title: "Two abstracted were selected at ASHG19"
+  description: "One abstract in our lab was selected as a platform talk at ASHG19. One abstract was selected as Reviewers’ Choice Abstracts at ASHG 19."
+
+- year: 2019
+  month: OCTOBER
+  title: "Welcome Yiqing"
+  description: "Welcome Yiqing from Computer Science department to join the group as a research assistant."
+
+- year: 2020
+  month: MARCH
+  title: "Zechen appointed in CCTS"
+  description: "Zechen was appointed as Associate Scientist of the Center for Clinical and Translational Science (CCTS). "
+
+- year: 2020
+  month: MARCH
+  title: "BDCatalyst Award!"
+  description: "Awesome news! We received a fellowship from the NHLBI BioData Catalyst Fellowship Program."
+
+- year: 2020
+  month: JUNE
+  title: "MIRA Award!"
+  description: "Great news! We received a total of $1.8 million five-year MIRA award from NIH/NIGMS. More bioinformatics geeks are needed!!!"
+
+- year: 2020
+  month: AUGUST
+  title: "Welcome Weisheng"
+  description: "Welcome GBS/Cancer biology theme student Weisheng Chen to rotate in the lab."
+
+- year: 2020
+  month: SEPTEMBER
+  title: "Welcome Katrina and Ethan"
+  description: "Welcome undergraduate students Katrina and Ethan to join the lab."
+
+- year: 2020
+  month: DECEMBER
+  title: "Welcome Stephanie"
+  description: "Welcome undergraduate student Stephanie to join the lab. "
+
+- year: 2021
+  month: JANUARY
+  title: "Welcome Santhosh"
+  description: "Welcome GBS/Cancer biology theme student Santhosh Kumar Karthikeyan to rotate in the lab. "
+
+- year: 2021
+  month: JANUARY
+  title: "Welcome Meghan"
+  description: "Welcome undergraduate student Meghan to join the lab. "
+
+- year: 2021
+  month: FEBRUARY
+  title: "ClipSV paper is online!"
+  description: "ClipSV paper is online! "
+
+- year: 2021
+  month: FEBRUARY
+  title: "Welcome Shaurita"
+  description: "Welcome GBS/GGB theme student Shaurita Hutchins to rotate in the lab. "
+
+- year: 2021
+  month: FEBRUARY
+  title: "HGSVC paper is online in Science"
+  description: "Our HGSVC collaborative paper is online in Science."
+
+- year: 2021
+  month: AUGUST
+  title: "Fengyuan presented at ICIBM 21"
+  description: "Fengyuan’s presented her work “B-assembler: A Circular Bacterial Genome Assembler”. Well done!"
+
+- year: 2021
+  month: AUGUST
+  title: "Maggi’s abstract was accepted for a platform (oral) presentation at ASHG 2021"
+  description: "Maggi’s abstract “Genome-wide association of structural variations with lipid metabolism traits in TOPMed GOLDN study” has been ACCEPTED for a platform (oral) presentation at the ASHG 2021 Virtual Meeting. There are only 198 abstracts out of over 2000 selected as oral presentations. Good job, Maggi!"
+
+- year: 2021
+  month: AUGUST
+  title: "Maggi has been selected as a Predoctoral Semifinalist for the 2021 Charles J. Epstein Trainee Awards for Excellence in Human Genetics Research"
+  description: "Quote from ASHG 2021:” The competition was intense this year, with over 500 applicants for only 60 semifinalist and 18 finalist selections. While your abstract did not reach the finalist stage, selection to the semifinalist stage is a significant honor and reflects the quality and significance of your work.” Awesome, Maggi!"
+
+- year: 2021
+  month: AUGUST
+  title: "Fengyuan received ICIBM 2021 Best Paper Award Runner Up Certificate"
+  description: "Good job, Fengyuan! Congratulations!"
+
+- year: 2018
+  month: OCTOBER
+  title: "Welcome Yuwei"
+  description: "Welcome GBS/GGB theme student Yuwei Song to rotate in the lab. "
+
+- year: 2021
+  month: OCTOBER
+  title: "Welcome Guy"
+  description: "Welcome GBS/GGB theme student Guy Twa to rotate in the lab. "
+
+- year: 2021
+  month: OCTOBER
+  title: "Welcome Oliver"
+  description: "Welcome master student Oliver Tan from the Computer Science department to join the lab. "
+
+- year: 2021
+  month: OCTOBER
+  title: "Nature Cancer paper is online"
+  description: "Collaborating with Eddy Yang’s group, a paper is accepted in Nature Cancer, “RNF2 ablation reprograms the tumor-immune microenvironment and stimulates durable NK and CD4+ T-cell-dependent antitumor immunity”."
+
+- year: 2021
+  month: NOVEMBER
+  title: "Genome Biology paper is online"
+  description: "Our work, “Accurate long-read de novo assembly evaluation with Inspector”, is online today in Genome Biology."
+
+- year: 2022
+  month: MAY
+  title: "BMC Genomics paper is online"
+  description: "Our work on bacteria genome long-/hybrid- read de novo assembly is accepted"
+  link: "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-022-08577-7"
+  
+- year: 2022
+  month: AUGUST
+  title: "PloS Genetics paper is online"
+  description: "Collaborating with Dr. John Parant’s group, our paper is accepted in PloS Genetics"
+  link: "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010341"
+
+- year: 2022
+  month: AUGUST
+  title: "Nature Communications paper is online"
+  description: "Collaborating with Lewis Shi’s group, our paper is accepted in Nature Communications"
+  link: "https://www.nature.com/articles/s41467-022-32754-7"
+
+- year: 2022
+  month: OCTOBER
+  title: "Our work on gene fusion detection with long-read transcriptome data is accepted by Cancer Research."
+  description: ""
+  link: "https://aacrjournals.org/cancerres/article/83/1/28/711845/Gene-Fusion-Detection-and-Characterization-in-Long"
+
+- year: 2023
+  month: JANUARY
+  title: "DeBreak is online in Nature Communications!"
+  description: ""
+  link: "https://www.nature.com/articles/s41467-023-35996-1"
+
+- year: 2023
+  month: JUNE
+  title: "Fengyuan successfully defended her dissertation. Congratulations, Dr. Huang!"
+
+- year: 2023
+  month: JULY
+  title: "So thrilled to join the Human Pangenome Reference Consortium (HPRC) as an Associate Member!"
+  link: "https://humanpangenome.org/"
+
+- year: 2023
+  month: SEPTEMBER
+  title: "In collaboration with Dr. Rocque from the Department of Neurosurgery, we received an R21 award."
+
+- year: 2024
+  month: JANUARY
+  title: "Our work on obese cancer analysis is online in Cancer Research"
+  link: "https://aacrjournals.org/cancerres/article/84/5/757/734931/Body-Weight-Correlates-with-Molecular-Variances-in"
+
+- year: 2024
+  month: MARCH
+  title: "Our work was selected as a featured cover paper by Cancer Research"
+  photo: "/news_photo/cancer_research.jpg"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

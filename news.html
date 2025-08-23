@@ -1,0 +1,82 @@
+---
+layout: page
+permalink: /news/
+---
+<h1>News</h1>
+
+
+  <!-- Year Navigation -->
+  <p>
+    <a href="#all">All</a>
+    {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
+    {% for y in years %}
+      | <a href="#{{ y }}">{{ y }}</a>
+    {% endfor %}
+  </p>
+
+  <div id="all"></div> <!-- Anchor for 'All' -->
+
+  {% assign month_order = "DECEMBER,NOVEMBER,OCTOBER,SEPTEMBER,AUGUST,JULY,JUNE,MAY,APRIL,MARCH,FEBRUARY,JANUARY" | split: "," %}
+
+  {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
+  {% for year in years %}
+    <h2 id="{{ year }}">{{ year }}</h2>
+
+    {% assign all_months = site.data.news | where: "year", year | map: "month" | uniq %}
+    {% assign months = "" | split: "" %}
+    {% for m in month_order %}
+      {% if all_months contains m %}
+        {% assign months = months | push: m %}
+      {% endif %}
+    {% endfor %}
+
+    {% for month in months %}
+      <h3>{{ month }}</h3>
+      <ul>
+        {% for news_item in site.data.news %}
+          {% assign m_trimmed = news_item.month | upcase | strip %}
+          {% if news_item.year == year and m_trimmed == month %}
+            <li style="margin-bottom: 20px;">
+              <strong style="font-size: 1.25rem;">{{ news_item.title }}</strong><br>
+              {% if news_item.description %}
+                <p>{{ news_item.description }}</p>
+              {% endif %}
+              {% if news_item.photo %}
+                <img src="{{ news_item.photo }}" alt="News Image" style="max-width: 300px; display: block; margin-top: 10px;">
+              {% endif %}
+              {% if news_item.link %}
+                <p><a href="{{ news_item.link }}" target="_blank">More Info</a></p>
+              {% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  {% endfor %}
+</div>
+
+<!-- Optional Pagination Controls if Needed (non-functional without plugin) -->
+<!--
+<div class="pagination">
+  <span class="previous">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">Previous</a>
+    {% else %}
+      <span>Previous</span>
+    {% endif %}
+  </span>
+
+  <span class="next">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">Next</a>
+    {% else %}
+      <span>Next</span>
+    {% endif %}
+  </span>
+</div>
+-->
+
+<!-- Back to Top Button -->
+<div style="text-align: center; margin-top: 3em;">
+  <a href="#top" style="font-weight: bold; text-decoration: underline;">Back to Top</a>
+</div>
