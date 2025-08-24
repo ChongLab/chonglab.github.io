@@ -18,7 +18,7 @@
 ##############################
 text_skin: ocean # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : "https://chiahsuanf.github.io"
+url     : "https://chonglab.github.io"
 baseurl : ""
 github:
   is_project_page: false
@@ -42,7 +42,7 @@ include:
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : Zechen Chong
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : 
@@ -62,7 +62,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: chiahsuanF.github.io
+repository: chonglab.github.io
 repository_tree: "main"
 
 
