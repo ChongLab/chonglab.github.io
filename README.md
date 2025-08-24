@@ -2,8 +2,8 @@
 
 
 ## News format
-Edit here: [news.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blob/master/_data/news.yml)  <br />
-Edit photo: [news_photo](https://github.com/chiahsuanF/chiahsuanF.github.io/tree/master/news_photo)
+Edit here: [news.yml](https://github.com/chonglab/chonglab.github.io/blob/master/_data/news.yml)  <br />
+Edit photo: [news_photo](https://github.com/chonglab/chonglab.github.io/tree/master/news_photo)
 ```
 - year: 
   month: 
@@ -31,12 +31,12 @@ Edit photo: [news_photo](https://github.com/chiahsuanF/chiahsuanF.github.io/tree
   month: JUNE
   title: "hello world!"
 ```
-[CHONG LAB NEWS](https://chiahsuanf.github.io/news/)
+[CHONG LAB NEWS](https://chonglab.github.io/news/)
 
 
 
 ## Publications format
-Edit here: [publication.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blob/master/_data/publication.yml)
+Edit here: [publication.yml](https://github.com/chonglab/chonglab.github.io/blob/master/_data/publication.yml)
 ```
 - year: 
   author: 
@@ -52,12 +52,12 @@ Edit here: [publication.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/
   journal: bioRxiv 
   doi: https://doi.org/10.1101/2024.07.22.604443
 ```
-[CHONG LAB PUBLICTIONS](https://chiahsuanf.github.io/publications/)
+[CHONG LAB PUBLICTIONS](https://chonglab.github.io/publications/)
 
 
 
 ## Software format
-Edit here: [software.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blob/master/_data/software.yml)
+Edit here: [software.yml](https://github.com/chonglab/chonglab.github.io/blob/master/_data/software.yml)
 ```
 - tag: 
   name: 
@@ -71,13 +71,13 @@ Edit here: [software.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blo
   description: ClipSV is a novel method for SV detection based on read extension, spliced alignment, and local assembly. 
   download2: https://doi.org/10.1101/2024.07.22.604443
 ```
-[CHONG LAB SOFTWARE](https://chiahsuanf.github.io/software/)
+[CHONG LAB SOFTWARE](https://chonglab.github.io/software/)
 
 
 
 ## Team format
-Edit here: [team.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blob/master/_data/team.yml) <br />
-Edit photo: [team_member](https://github.com/chiahsuanF/chiahsuanF.github.io/tree/master/team_member)
+Edit here: [team.yml](https://github.com/chonglab/chonglab.github.io/blob/master/_data/team.yml) <br />
+Edit photo: [team_member](https://github.com/chonglab/chonglab.github.io/tree/master/team_member)
 ```
 - name: ""
   role: ""
@@ -91,13 +91,13 @@ Edit photo: [team_member](https://github.com/chiahsuanF/chiahsuanF.github.io/tre
   photo: "team_member/PHOTO"
   bio: "Dame Jane Morris Goodall is an English zoologist, primatologist and anthropologist."
 ```
-[CHONG LAB TEAM](https://chiahsuanf.github.io/team/)
+[CHONG LAB TEAM](https://chonglab.github.io/team/)
 
 
 
 ## Album format
-Edit here: [album.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blob/master/_data/album.yml) <br />
-Edit photo: [album photo](https://github.com/chiahsuanF/chiahsuanF.github.io/tree/master/album)
+Edit here: [album.yml](https://github.com/chonglab/chonglab.github.io/blob/master/_data/album.yml) <br />
+Edit photo: [album photo](https://github.com/chonglab/chonglab.github.io/tree/master/album)
 ```
 - descript: 
   photo: album/PHOTO
@@ -107,7 +107,7 @@ Edit photo: [album photo](https://github.com/chiahsuanF/chiahsuanF.github.io/tre
 - descript: 2024 ASHG 
   photo: album/2024_ASHG.JPG
 ```
-[CHONG LAB ALBUM](https://chiahsuanf.github.io/album/)
+[CHONG LAB ALBUM](https://chonglab.github.io/album/)
 
 
 
