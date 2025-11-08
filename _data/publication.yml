@@ -42,338 +42,338 @@
 
 - year: 2024
   author: Huang F, Xu P, Yue Z, Song Y, Hu K, Zhao X, Gao M, Chong Z.
-  title: Body Weight Correlates with Molecular Variances in Patients with Cancer.
+  title: "Body Weight Correlates with Molecular Variances in Patients with Cancer."
   journal: Cancer Res. 2024 Mar 4;84(5):757-770.
   doi: 10.1158/0008-5472.CAN-23-1463.
 
 - year: 2023
   author: Tan Y, Mohanty V, Liang S, Dou J, Ma J, Kim KH, Bonder MJ, Shi X, Lee C; Human Genome Structural Variation Consortium; Chong Z, Chen K.
-  title: Novornabreak: Local Assembly for Novel Splice Junction and Fusion Transcript Detection from RNA-Seq Data.
+  title: "Novornabreak: Local Assembly for Novel Splice Junction and Fusion Transcript Detection from RNA-Seq Data."
   journal: J Bioinform Syst Biol. 2023 Apr 4;6(2):74-81.
   doi: 10.26502/jbsb.5107050.
 
 - year: 2023
   author: Chen Y, Wang AY, Barkley CA, Zhang Y, Zhao X, Gao M, Edmonds MD, Chong Z.
-  title: Deciphering the exact breakpoints of structural variations using long sequencing reads with DeBreak.
+  title: "Deciphering the exact breakpoints of structural variations using long sequencing reads with DeBreak."
   journal: Nat Commun. 2023 Jan 17;14(1):283.
   doi: 10.1038/s41467-023-35996-1.
 
 - year: 2022
   author: Chen Y, Wang Y, Chen W, Tan Z, Song Y, Human Genome Structural Variation Consortium N, Chen H, Chong Z.
-  title: Gene fusion detection and characterization in long-read cancer transcriptome sequencing data with FusionSeeker.
+  title: "Gene fusion detection and characterization in long-read cancer transcriptome sequencing data with FusionSeeker."
   journal: Cancer Res. 2022 Nov 1:CAN-22-1628. Epub ahead of print.
   doi: 10.1158/0008-5472.CAN-22-1628.
 
 - year: 2022
   author: Zhao X, Chong Z, Chen Y, Zheng XL, Wang QF, Li Y.
-  title: Protein arginine methyltransferase 1 in the generation of immune megakaryocytes: A perspective review.
+  title: "Protein arginine methyltransferase 1 in the generation of immune megakaryocytes: A perspective review."
   journal: J Biol Chem. 2022 Sep 21;298(11):102517. Epub ahead of print.
   doi: 10.1016/j.jbc.2022.102517.
 
 - year: 2022
   author: Byrska-Bishop M, Evani US, Zhao X, Basile AO, Abel HJ, Regier AA, Corvelo A, Clarke WE, Musunuri R, Nagulapalli K, Fairley S, Runnels A, Winterkorn L, Lowy E; Human Genome Structural Variation Consortium (including Chong Z), Paul Flicek, Germer S, Brand H, Hall IM, Talkowski ME, Narzisi G, Zody MC.
-  title: High-coverage whole-genome sequencing of the expanded 1000 Genomes Project cohort including 602 trios.
+  title: "High-coverage whole-genome sequencing of the expanded 1000 Genomes Project cohort including 602 trios."
   journal: Cell. 2022 Sep 1;185(18):3426-3440.e19.
   doi: 10.1016/j.cell.2022.08.004.
 
 - year: 2022
   author: Shen H, Huang F, Zhang X, Ojo OA, Li Y, Trummell HQ, Anderson JC, Fiveash J, Bredel M, Yang ES, Willey CD, Chong Z, Bonner JA, Shi LZ.
-  title: Selective suppression of melanoma lacking IFN-γ pathway by JAK inhibition depends on T cells and host TNF signaling.
+  title: "Selective suppression of melanoma lacking IFN-γ pathway by JAK inhibition depends on T cells and host TNF signaling."
   journal: Nat Commun. 2022 Aug 25;13(1):5013.
   doi: 10.1038/s41467-022-32754-7.
 
 - year: 2022
   author: Wang J, Thomas HR, Chen Y, Percival SM, Waldrep SC, Ramaker RC, Thompson RG, Cooper SJ, Chong Z, Parant JM.
-  title: Reduced sister chromatid cohesion acts as a tumor penetrance modifier.
+  title: "Reduced sister chromatid cohesion acts as a tumor penetrance modifier."
   journal: PLoS Genet. 2022 Aug 22;18(8):e1010341.
   doi: 10.1371/journal.pgen.1010341.
 
 - year: 2022
   author: Huang F, Xiao L, Gao M, Vallely EJ, Dybvig K, Atkinson TP, Waites KB, Chong Z.
-  title: B-assembler: a circular bacterial genome assembler.
+  title: "B-assembler: a circular bacterial genome assembler."
   journal: BMC Genomics. 2022;23:361.
   doi: 10.1186/s12864-022-08577-7.
 
 - year: 2021
   author: Chen Y, Zhang Y, Wang A, Gao M, Chong Z.
-  title: Accurate long-read de novo assembly evaluation with Inspector.
+  title: "Accurate long-read de novo assembly evaluation with Inspector."
   journal: Genome Biol. 2021 Nov 14;22(1):312.
   doi: 10.1186/s13059-021-02527-4.
 
 - year: 2021
   author: Zhang Z, Luo L, Xing C, Chen Y, Xu P, Li M, Zeng L, Li C, Ghosh S, Della Manna D, Townes T, Britt WJ, Wajapeyee N, Sleckman BP, Chong Z, Leavenworth JW, Yang ES.
-  title: RNF2 ablation reprograms the tumor-immune microenvironment and stimulates durable NK and CD4+ T-cell-dependent antitumor immunity.
+  title: "RNF2 ablation reprograms the tumor-immune microenvironment and stimulates durable NK and CD4+ T-cell-dependent antitumor immunity."
   journal: Nat Cancer. 2021;2:1018–1038.
   doi: 10.1038/s43018-021-00263-z.
 
 - year: 2021
   author: Ebert P, Audano PA, Zhu Q, Rodriguez-Martin B, Porubsky D, Bonder MJ, Sulovari A, Ebler J, Zhou W, Serra Mari R, Yilmaz F, Zhao X, Hsieh P, Lee J, Kumar S, Lin J, Rausch T, Chen Y, Ren J, Santamarina M, Höps W, Ashraf H, Chuang NT, Yang X, Munson KM, Lewis AP, Fairley S, Tallon LJ, Clarke WE, Basile AO, Byrska-Bishop M, Corvelo A, Evani US, Lu TY, Chaisson MJP, Chen J, Li C, Brand H, Wenger AM, Ghareghani M, Harvey WT, Raeder B, Hasenfeld P, Regier AA, Abel HJ, Hall IM, Flicek P, Stegle O, Gerstein MB, Tubio JMC, Mu Z, Li YI, Shi X, Hastie AR, Ye K, Chong Z, Sanders AD, Zody MC, Talkowski ME, Mills RE, Devine SE, Lee C, Korbel JO, Marschall T, Eichler EE.
-  title: Haplotype-resolved diverse human genomes and integrated analysis of structural variation.
+  title: "Haplotype-resolved diverse human genomes and integrated analysis of structural variation."
   journal: Science. 2021 Feb 25:eabf7117.
   doi: 10.1126/science.abf7117.
 
 - year: 2021
   author: Xu P, Chen Y, Gao M, Chong Z.
-  title: ClipSV: improving structural variation detection by read extension, spliced alignment and tree-based decision rules.
+  title: "ClipSV: improving structural variation detection by read extension, spliced alignment and tree-based decision rules."
   journal: NAR Genom Bioinform. 2021 Feb 1;3(1):lqab003.
   doi: 10.1093/nargab/lqab003.
 
 - year: 2020
   author: Bailey MH, Meyerson WU, Dursi LJ, Wang LB, Dong G, Liang WW, Weerasinghe A, Li S, Kelso S; MC3 Working Group; PCAWG novel somatic mutation calling methods working group (including Zechen Chong), Saksena G, Ellrott K, Wendl MC, Wheeler DA, Getz G, Simpson JT, Gerstein MB, Ding L; PCAWG Consortium (including Zechen Chong).
-  title: Retrospective evaluation of whole exome and genome mutation calls in 746 cancer samples.
+  title: "Retrospective evaluation of whole exome and genome mutation calls in 746 cancer samples."
   journal: Nat Commun. 2020 Sep 21;11(1):4748.
   doi: 10.1038/s41467-020-18151-y.
 
 - year: 2020
   author: Li CH, Prokopec SD, Sun RX, Yousif F, Schmitz N; PCAWG Tumour Subtypes and Clinical Translation, Boutros PC; PCAWG Consortium (including Zechen Chong).
-  title: Sex differences in oncogenic mutational processes.
+  title: "Sex differences in oncogenic mutational processes."
   journal: Nat Commun. 2020 Aug 28;11(1):4330.
   doi: 10.1038/s41467-020-17359-2.
 
 - year: 2020
   author: Liu RM, Chong Z, Chen JC.
-  title: Ozone and Particulate Matter Exposure and Alzheimer's Disease: A Review of Human and Animal Studies.
+  title: "Ozone and Particulate Matter Exposure and Alzheimer's Disease: A Review of Human and Animal Studies."
   journal: J Alzheimers Dis. 2020;76(3):807-824.
   doi: 10.3233/JAD-200435.
 
 - year: 2020
   author: ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium (including Zechen Chong).
-  title: Pan-cancer analysis of whole genomes.
+  title: "Pan-cancer analysis of whole genomes."
   journal: Nature. 2020 Feb;578(7793):82-93.
   doi: 10.1038/s41586-020-1969-6.
 
 - year: 2020
   author: Rodriguez-Martin B, Alvarez EG, Baez-Ortega A, Zamora J, Supek F, Demeulemeester J, Santamarina M, Ju YS, Temes J, Garcia-Souto D, Detering H, Li Y, Rodriguez-Castro J, Dueso-Barroso A, Bruzos AL, Dentro SC, Blanco MG, Contino G, Ardeljan D, Tojo M, Roberts ND, Zumalave S, Edwards PAW, Weischenfeldt J, Puiggròs M, Chong Z, Chen K, Lee EA, Wala JA, Raine K, Butler A, Waszak SM, Navarro FCP, Schumacher SE, Monlong J, Maura F, Bolli N, Bourque G, Gerstein M, Park PJ, Wedge DC, Beroukhim R, Torrents D, Korbel JO, Martincorena I, Fitzgerald RC, Van Loo P, Kazazian HH, Burns KH; PCAWG Structural Variation Working Group, Campbell PJ, Tubio JMC; PCAWG Consortium.
-  title: Pan-cancer analysis of whole genomes identifies driver rearrangements promoted by LINE-1 retrotransposition.
+  title: "Pan-cancer analysis of whole genomes identifies driver rearrangements promoted by LINE-1 retrotransposition."
   journal: Nat Genet. 2020 Mar;52(3):306–319.
   doi: 10.1038/s41588-019-0562-0.
 
 - year: 2020
   author: Shanta O, Noor A; Human Genome Structural Variation Consortium (HGSVC) (including Zechen Chong), Sebat J.
-  title: The effects of common structural variants on 3D chromatin structure.
+  title: "The effects of common structural variants on 3D chromatin structure."
   journal: BMC Genomics. 2020 Jan 30;21(1):95.
   doi: 10.1186/s12864-020-6516-1.
 
 - year: 2020
   author: Kessler MD, Loesch DP, Perry JA, Heard-Costa NL, Taliun D, Cade BE, Wang H, Daya M, Ziniti J, Datta S, Celedón JC, Soto-Quiros ME, Avila L, Weiss ST, Barnes K, Redline SS, Vasan RS, Johnson AD, Mathias RA, Hernandez R, Wilson JG, Nickerson DA, Abecasis G, Browning SR, Zöllner S, O'Connell JR, Mitchell BD; National Heart, Lung, and Blood Institute Trans-Omics for Precision Medicine (TOPMed) Consortium (including Zechen Chong); TOPMed Population Genetics Working Group, O'Connor TD.
-  title: De novo mutations across 1,465 diverse genomes reveal mutational insights and reductions in the Amish founder population.
+  title: "De novo mutations across 1,465 diverse genomes reveal mutational insights and reductions in the Amish founder population."
   journal: Proc Natl Acad Sci U S A. 2020 Feb 4;117(5):2560-2569. Epub 2020 Jan 21.
   doi: 10.1073/pnas.1902766117.
 
 - year: 2019
   author: Sulovari A, Li R, Audano PA, Porubsky D, Vollger MR, Logsdon GA; Human Genome Structural Variation Consortium (including Zechen Chong), Warren WC, Pollen AA, Chaisson MJP, Eichler EE.
-  title: Human-specific tandem repeat expansion and differential gene expression during primate evolution.
+  title: "Human-specific tandem repeat expansion and differential gene expression during primate evolution."
   journal: Proc Natl Acad Sci U S A. 2019 Nov 12;116(46):23243-23253.
   doi: 10.1073/pnas.1912175116.
 
 - year: 2020
   author: Xu P, Kennell T, Gao M; Human Genome Structural Variation Consortium, Kimberly RP, Chong Z.
-  title: MRLR: unraveling high-resolution meiotic recombination by linked reads.
+  title: "MRLR: unraveling high-resolution meiotic recombination by linked reads."
   journal: Bioinformatics. 2020 Jan 1;36(1):10-16.
   doi: 10.1093/bioinformatics/btz503.
 
 - year: 2019
   author: Guo G, Chen H, Yan D, Cheng J, Chen J, Chong Z.
-  title: Scalable De Novo Genome Assembly Using a Pregel-Like Graph-Parallel System.
+  title: "Scalable De Novo Genome Assembly Using a Pregel-Like Graph-Parallel System."
   journal: IEEE/ACM Trans Comput Biol Bioinform. 2019 Jun 5.
   doi: 10.1109/TCBB.2019.2920912.
 
 - year: 2019
   author: Chaisson MJ, Sanders AD, Zhao X, Malhotra A, Porubsky D, Rausch T, Gardner EJ, Rodr RL, Fan X, et al. (including Zechen Chong).
-  title: Multi-platform discovery of haplotype-resolved human genomes.
+  title: "Multi-platform discovery of haplotype-resolved human genomes."
   journal: Nature Communications. 2019 Apr 16.
   doi: 10.1038/s41467-018-08148-z
 
 - year: 2019
   author: Beck CR, Carvalho CMB, Akdemir ZC, Sedlazeck FJ, Song X, Meng Q, Hu J, Doddapaneni H, Chong Z, Chen ES, Thornton PC, Liu P, Yuan B, Withers M, Jhangiani SN, Kalra D, Walker K, English AC, Han Y, Chen K, Muzny DM, Ira G, Shaw CA, Gibbs RA, Hastings PJ, Lupski JR.
-  title: Megabase Length Hypermutation Accompanies Human Structural Variation at 17p11.2.
+  title: "Megabase Length Hypermutation Accompanies Human Structural Variation at 17p11.2."
   journal: Cell. 2019 Mar 7;176(6):1310-1324.e10.
   doi: 10.1016/j.cell.2019.01.045.
 
 - year: 2018
   author: Lee AY, Ewing AD, Ellrott K, Hu Y, Houlahan KE, Bare JC, Espiritu SMG, Huang V, Dang K, Chong Z, Caloian C, Yamaguchi TN; ICGC-TCGA DREAM Somatic Mutation Calling Challenge Participants, Kellen MR, Chen K, Norman TC, Friend SH, Guinney J, Stolovitzky G, Haussler D, Margolin AA, Stuart JM, Boutros PC.
-  title: Combining accurate tumor genome simulation with crowdsourcing to benchmark somatic structural variant detection.
+  title: "Combining accurate tumor genome simulation with crowdsourcing to benchmark somatic structural variant detection."
   journal: Genome Biol. 2018 Nov 6;19(1):188.
   doi: 10.1186/s13059-018-1539-5.
 
 - year: 2018
   author: Zhu W, Zhang E, Zhao M, Chong Z, Fan C, Tang Y, Hunter JD, Borovjagin AV, Walcott GP, Chen JY, Qin G, Zhang J.
-  title: Regenerative Potential of Neonatal Porcine Hearts.
+  title: "Regenerative Potential of Neonatal Porcine Hearts."
   journal: Circulation. 2018 Dec 11;138(24):2809-2816.
   doi: 10.1161/CIRCULATIONAHA.118.034886.
 
 - year: 2018
   author: Grzeskowiak CL, Kundu ST, Mo X, Ivanov AA, Zagorodna O, Lu H, Chapple RH, Tsang YH, Moreno D, Mosqueda M, Eterovic K, Fradette JJ, Ahmad S, Chen F, Chong Z, Chen K, Creighton CJ, Fu H, Mills GB, Gibbons DL, Scott KL.
-  title: In vivo screening identifies GATAD2B as a metastasis driver in KRAS-driven lung cancer.
+  title: "In vivo screening identifies GATAD2B as a metastasis driver in KRAS-driven lung cancer."
   journal: Nat Commun. 2018 Jul 16;9(1):2732.
   doi: 10.1038/s41467-018-04572-3.
 
 - year: 2018
   author: Grochowski CM, Gu S, Yuan B, Tcw J, Brennand KJ, Sebat J, Malhotra D, McCarthy S, Rudolph U, Lindstrand A, Chong Z, Levy DL, Lupski JR, Carvalho CMB.
-  title: Marker chromosome genomic structure and temporal origin implicate a chromoanasynthesis event in a family with pleiotropic psychiatric phenotypes.
+  title: "Marker chromosome genomic structure and temporal origin implicate a chromoanasynthesis event in a family with pleiotropic psychiatric phenotypes."
   journal: Hum Mutat. 2018 Jul;39(7):939-946.
   doi: 10.1002/humu.23537.
 
 - year: 2017
   author: Gönén M, Weir BA, Cowley GS, Vazquez F, Guan Y, Jaiswal A, Karasuyama M, Uzunangelov V, Wang T, Tsherniak A, Howell S, Marbach D, et al. (including Zechen Chong).
-  title: A Community Challenge for Inferring Genetic Predictors of Gene Essentialities through Analysis of a Functional Screen of Cancer Cell Lines.
+  title: "A Community Challenge for Inferring Genetic Predictors of Gene Essentialities through Analysis of a Functional Screen of Cancer Cell Lines."
   journal: Cell Syst. 2017 Nov 22;5(5):485-497.e3.
   doi: 10.1016/j.cels.2017.09.004.
 
 - year: 2017
   author: Federico L, Chong Z, Zhang D, McGrail DJ, Zhao W, Jeong KJ, Vellano CP, Ju Z, Gagea M, Liu S, Mitra S, Dennison JB, Lorenzi PL, Cardnell R, Diao L, Wang J, Lu Y, Byers LA, Perou CM, Lin SY, Mills GB.
-  title: A murine preclinical syngeneic transplantation model for breast cancer precision medicine.
+  title: "A murine preclinical syngeneic transplantation model for breast cancer precision medicine."
   journal: Sci Adv. 2017 Apr 19;3(4):e1600957.
   doi: 10.1126/sciadv.1600957.
 
 - year: 2017
   author: Liu P, Yuan B, Carvalho CM, Wuster A, Walter K, Zhang L, Gambin T, Chong Z, Campbell IM, Coban Akdemir Z, Gelowani V, Writzl K, Bacino CA, Lindsay SJ, Withers M, Gonzaga-Jauregui C, Wiszniewska J, Scull J, Stankiewicz P, Jhangiani SN, Muzny DM, Zhang F, Chen K, Gibbs RA, Rautenstrauss B, Cheung SW, Smith J, Breman A, Shaw CA, Patel A, Hurles ME, Lupski JR.
-  title: An Organismal CNV Mutator Phenotype Restricted to Early Human Development.
+  title: "An Organismal CNV Mutator Phenotype Restricted to Early Human Development."
   journal: Cell. 2017 Feb 23;168(5):830-842.e7.
   doi: 10.1016/j.cell.2017.01.037.
 
 - year: 2017
   author: Cancer Genome Atlas Research Network (including Chong Z).
-  title: Integrated genomic and molecular characterization of cervical cancer.
+  title: "Integrated genomic and molecular characterization of cervical cancer."
   journal: Nature. 2017 Jan 23.
   doi: 10.1038/nature21386.
 
 - year: 2017
   author: Chong Z, Ruan J, Gao M, Zhou W, Chen T, Fan X, Ding L, Lee AY, Boutros P, Chen J, Chen K.
-  title: novoBreak: local assembly for breakpoint detection in cancer genomes.
+  title: "novoBreak: local assembly for breakpoint detection in cancer genomes."
   journal: Nat Methods. 2017 Jan;14(1):65-67.
   doi: 10.1038/nmeth.4084.
 
 - year: 2016
   author: Zhang K, Gao M, Chong Z, Li Y, Han X, Chen R, Qin L.
-  title: Single-cell isolation by a modular single-cell pipette for RNA-sequencing.
+  title: "Single-cell isolation by a modular single-cell pipette for RNA-sequencing."
   journal: Lab Chip. 2016 Nov 29;16(24):4742-4748.
   doi: 10.1039/c6lc01241h
 
 - year: 2016
   author: Chen T, Wang Z, Zhou W, Chong Z, Meric-Bernstam F, Mills GB, Chen K.
-  title: Hotspot mutations delineating diverse mutational signatures and biological utilities across cancer types.
+  title: "Hotspot mutations delineating diverse mutational signatures and biological utilities across cancer types."
   journal: BMC Genomics. 2016 Jun 23;17 Suppl 2:394.
   doi: 10.1186/s12864-016-2727-x.
 
 - year: 2016
   author: Tsang YH, Dogruluk T, Tedeschi PM, Wardwell-Ozgo J, Lu H, Espitia M, Nair N, Minelli R, Chong Z, Chen F, Chang QE, Dennison JB, Dogruluk A, Li M, Ying H, Bertino JR, Gingras MC, Ittmann M, Kerrigan J, Chen K, Creighton CJ, Eterovic K, Mills GB, Scott KL.
-  title: Functional annotation of rare gene aberration drivers of pancreatic cancer.
+  title: "Functional annotation of rare gene aberration drivers of pancreatic cancer."
   journal: Nat Commun. 2016 Jan 25;7:10500.
   doi: 10.1038/ncomms10500.
 
 - year: 2015
   author: Dogruluk T, Tsang YH, Espitia M, Chen F, Chen T, Chong Z, Appadurai V, Dogruluk A, Eterovic AK, Bonnen PE, Creighton CJ, Chen K, Mills GB, Scott KL.
-  title: Identification of Variant-Specific Functions of PIK3CA by Rapid Phenotyping of Rare Mutations.
+  title: "Identification of Variant-Specific Functions of PIK3CA by Rapid Phenotyping of Rare Mutations."
   journal: Cancer Res. 2015 Dec 15;75(24):5341-54.
   doi: 10.1158/0008-5472.CAN-15-1654.
 
 - year: 2015
   author: Zhou W, Chen T, Chong Z, Rohrdanz MA, Melott JM, Wakefield C, Zeng J, Weinstein JN, Meric-Bernstam F, Mills GB, Chen K.
-  title: TransVar: a multilevel variant annotator for precision genomics.
+  title: "TransVar: a multilevel variant annotator for precision genomics."
   journal: Nat Methods. 2015 Nov;12(11):1002-3.
   doi: 10.1038/nmeth.3622.
 
 - year: 2015
   author: Sudmant PH, Rausch T, Gardner EJ, Handsaker RE, Abyzov A, Huddleston J, Zhang Y, Ye K, Jun G, Hsi-Yang Fritz M, Konkel MK, Malhotra A, Dayama G, Chen K, Malig M, Chaisson MJ, Walter K, Meiers S, Kashin S, Garrison E, Auton A, Lam HY, Jasmine Mu X, Konkel MK, et al.; 1000 Genomes Project Consortium., Mills RE, Gerstein MB, Bashir A, Stegle O, Devine SE, Lee C, Eichler EE, Korbel JO.
-  title: An integrated map of structural variation in 2,504 human genomes.
+  title: "An integrated map of structural variation in 2,504 human genomes."
   journal: Nature. 2015 Oct 1;526(7571):75-81.
   doi: 10.1038/nature15394.
 
 - year: 2015
   author: 1000 Genomes Project Consortium (including Chong Z), Auton A, Brooks LD, Durbin RM, Garrison EP, Kang HM, Korbel JO, Marchini JL, McCarthy S, McVean GA, Abecasis GR.
-  title: A global reference for human genetic variation.
+  title: "A global reference for human genetic variation."
   journal: Nature. 2015 Oct 1;526(7571):68-74.
   doi: 10.1038/nature15393.
 
 - year: 2015
   author: Zhou W, Zhao H, Chong Z, Mark RJ, Eterovic AK, Meric-Bernstam F, Chen K.
-  title: ClinSeK: a targeted variant characterization framework for clinical sequencing.
+  title: "ClinSeK: a targeted variant characterization framework for clinical sequencing."
   journal: Genome Med. 2015 Mar 31;7(1):34.
   doi: 10.1186/s13073-015-0155-1
 
 - year: 2015
   author: Wang XX, Sun BF, Jiao J, Chong ZC, Chen YS, Wang XL, Zhao Y, Zhou YM, Li D.
-  title: Genome-wide 5-hydroxymethylcytosine modification pattern is a novel epigenetic feature of globozoospermia.
+  title: "Genome-wide 5-hydroxymethylcytosine modification pattern is a novel epigenetic feature of globozoospermia."
   journal: Oncotarget. 2015 Mar 30;6(9):6535-43.
   doi: 10.18632/oncotarget.3163
 
 - year: 2015
   author: Chen K, Meric-Bernstam F, Zhao H, Zhang Q, Ezzeddine N, Tang LY, Qi Y, Mao Y, Chen T, Chong Z, Zhou W, Zheng X, Johnson A, Aldape KD, Routbort MJ, Luthra R, Kopetz S, Davies MA, de Groot J, Moulder S, Vinod R, Farhangfar CJ, Shaw KM, Mendelsohn J, Mills GB, Eterovic AK.
-  title: Clinical actionability enhanced through deep targeted sequencing of solid tumors.
+  title: "Clinical actionability enhanced through deep targeted sequencing of solid tumors."
   journal: Clin Chem. 2015 Mar;61(3):544-53.
   doi: 10.1373/clinchem.2014.231100
 
 - year: 2014
   author: Fan X, Zhou W, Chong Z, Nakhleh L, Chen K.
-  title: Towards accurate characterization of clonal heterogeneity based on structural variation.
+  title: "Towards accurate characterization of clonal heterogeneity based on structural variation."
   journal: BMC Bioinformatics. 2014 Sep 8;15:299.
   doi: 10.1186/1471-2105-15-299
 
 - year: 2014
   author: Tapias A, Zhou ZW, Shi Y, Chong Z, Wang P, Groth M, Platzer M, Huttner W, Herceg Z, Yang YG, Wang ZQ.
-  title: Trrap-dependent histone acetylation specifically regulates cell-cycle gene transcription to control neural progenitor fate decisions.
+  title: "Trrap-dependent histone acetylation specifically regulates cell-cycle gene transcription to control neural progenitor fate decisions."
   journal: Cell Stem Cell. 2014 May 1;14(5):632-43.
   doi: 10.1016/j.stem.2014.04.001
 
 - year: 2014
   author: Gao M, Wei W, Li MM, Wu YS, Ba Z, Jin KX, Li MM, Liao YQ, Adhikari S, Chong Z, Zhang T, Guo CX, Tang TS, Zhu BT, Xu XZ, Mailand N, Yang YG, Qi Y, Rendtlew Danielsen JM.
-  title: Ago2 facilitates Rad51 recruitment and DNA double-strand break repair by homologous recombination.
+  title: "Ago2 facilitates Rad51 recruitment and DNA double-strand break repair by homologous recombination."
   journal: Cell Res. 2014 May;24(5):532-41.
   doi: 10.1038/cr.2014.36 
 
 - year: 2014
   author: Zhao B, Yang Y, Wang X, Chong Z, Yin R, Song SH, Zhao C, Li C, Huang H, Sun BF, Wu D, Jin KX, Song M, Zhu BZ, Jiang G, Rendtlew Danielsen JM, Xu GL, Yang YG, Wang H.
-  title: Redox-active quinones induces genome-wide DNA methylation changes by an iron-mediated and Tet-dependent mechanism.
+  title: "Redox-active quinones induces genome-wide DNA methylation changes by an iron-mediated and Tet-dependent mechanism."
   journal: Nucleic Acids Res. 2014 Feb;42(3):1593-605.
   doi: 10.1093/nar/gkt1090
 
 - year: 2013
   author: Ruan J, Jiang L, Chong Z, Gong Q, Li H, Li C, Tao Y, Zheng C, Zhai W, Turissini D, Cannon CH, Lu X, Wu CI.
-  title: Pseudo-Sanger sequencing: massively parallel production of long and near error-free reads using NGS technology.
+  title: "Pseudo-Sanger sequencing: massively parallel production of long and near error-free reads using NGS technology."
   journal: BMC Genomics. 2013 Oct 17;14:711.
   doi: 10.1186/1471-2164-14-711
 
 - year: 2013
   author: Chong Z, Zhai W, Li C, Gao M, Gong Q, Ruan J, Li J, Jiang L, Lv X, Hungate E, Wu CI.
-  title: The evolution of small insertions and deletions in the coding genes of Drosophila melanogaster.
+  title: "The evolution of small insertions and deletions in the coding genes of Drosophila melanogaster."
   journal: Mol Biol Evol. 2013 Dec;30(12):2699-708.
   doi: 10.1093/molbev/mst167
 
 - year: 2013
   author: Yin R, Mao SQ, Zhao B, Chong Z, Yang Y, Zhao C, Zhang D, Huang H, Gao J, Li Z, Jiao Y, Li C, Liu S, Wu D, Gu W, Yang YG, Xu GL, Wang H.
-  title: Ascorbic acid enhances Tet-mediated 5-methylcytosine oxidation and promotes DNA demethylation in mammals.
+  title: "Ascorbic acid enhances Tet-mediated 5-methylcytosine oxidation and promotes DNA demethylation in mammals."
   journal: J Am Chem Soc. 2013 Jul 17;135(28):10396-403.
   doi: 10.1021/ja4028346
 
 - year: 2012
   author: Chong Z, Ruan J, Wu CI.
-  title: Rainbow: an integrated tool for efficient clustering and assembling RAD-seq reads.
+  title: "Rainbow: an integrated tool for efficient clustering and assembling RAD-seq reads."
   journal: Bioinformatics. 2012 Nov 1;28(21):2732-7.
   doi: 10.1093/bioinformatics/bts482
 
 - year: 2011
   author: Tao Y, Ruan J, Yeh SH, Lu X, Wang Y, Zhai W, Cai J, Ling S, Gong Q, Chong Z, Qu Z, Li Q, Liu J, Yang J, Zheng C, Zeng C, Wang HY, Zhang J, Wang SH, Hao L, Dong L, Li W, Sun M, Zou W, Yu C, Li C, Liu G, Jiang L, Xu J, Huang H, Li C, Mi S, Zhang B, Chen B, Zhao W, Hu S, Zhuang SM, Shen Y, Shi S, Brown C, White KP, Chen DS, Chen PJ, Wu CI.
-  title: Rapid growth of a hepatocellular carcinoma and the driving mutations revealed by cell-population genetic analysis of whole-genome data.
+  title: "Rapid growth of a hepatocellular carcinoma and the driving mutations revealed by cell-population genetic analysis of whole-genome data."
   journal: Proc Natl Acad Sci U S A. 2011 Jul 19;108(29):12042-7.
   doi: 10.1073/pnas.1108715108 
 
 # Reviews & Book Chapters
 - year: 2022
   author: Zhao X, Chong Z, Chen Y, Zheng XL, Wang QF, Li Y.
-  title: Protein arginine methyltransferase 1 in the generation of immune megakaryocytes: A perspective review.
+  title: "Protein arginine methyltransferase 1 in the generation of immune megakaryocytes: A perspective review."
   journal: J Biol Chem. 2022 Sep 21;298(11):102517.
   doi: 10.1016/j.jbc.2022.102517.
 
 - year: 2020
   author: Liu RM, Chong Z, Chen JC.
-  title: Ozone and Particulate Matter Exposure and Alzheimer's Disease: A Review of Human and Animal Studies.
+  title: "Ozone and Particulate Matter Exposure and Alzheimer's Disease: A Review of Human and Animal Studies."
   journal: J Alzheimers Dis. 2020;76(3):807-824.
   doi: 10.3233/JAD-200435.
 
 - year: 2018
   author: Chong Z, Chen K.
-  title: Structural Variant Breakpoint Detection with novoBreak.
+  title: "Structural Variant Breakpoint Detection with novoBreak."
   journal: Methods Mol Biol. 2018;1833:129-141.
   doi: 10.1007/978-1-4939-8666-8_10.
 
