@@ -1,8 +1,6 @@
 header:
   - title: "Home"
     url: "/"
-  - title: "Research"
-    url: "/research/"
   - title: "News"
     url: "/news/"
   - title: "Team"
