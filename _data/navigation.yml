@@ -1,6 +1,8 @@
 header:
   - title: "Home"
     url: "/"
+  - title: "Research"
+    url: "/research/"
   - title: "News"
     url: "/news/"
   - title: "Team"
@@ -9,7 +11,7 @@ header:
     url: "/publications/"
   - title: "Software"
     url: "/software/"
-  - title: "Positions"
+  - title: "Join Us"
     url: "/positions/"
   - title: "Album"
     url: "/album/"
