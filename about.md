@@ -5,8 +5,6 @@ description: Research interests of the Chong Lab at the University of Virginia.
 permalink: /research/
 ---
 
-# Research
-
 Our lab develops computational methods for analyzing large-scale genomic data and applies these methods to fundamental questions in genome biology and human disease.
 
 ## Algorithm development for emerging sequencing data
