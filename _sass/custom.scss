@@ -759,3 +759,126 @@ button:focus-visible {
     grid-column: 1;
   }
 }
+
+/* Team page */
+.team-section {
+  margin-bottom: 4rem;
+}
+
+.team-section__heading {
+  margin-bottom: 1.75rem;
+}
+
+.pi-profile {
+  display: grid;
+  grid-template-columns: 15rem minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: start;
+  padding: 2rem;
+  background: var(--uva-light-gray);
+  border-left: 5px solid var(--uva-orange);
+}
+
+.pi-profile__photo {
+  width: 15rem;
+  height: 18rem;
+  object-fit: cover;
+  object-position: center 18%;
+  border-radius: 0.35rem;
+}
+
+.pi-profile__content h3,
+.member-card__content h3 {
+  margin: 0.4rem 0 0.25rem;
+  color: var(--uva-blue);
+  font-family: "Libre Caslon Text", Georgia, serif;
+}
+
+.pi-profile__content h3 {
+  font-size: 1.75rem;
+}
+
+.member-role {
+  margin: 0 0 1rem;
+  color: var(--uva-orange);
+  font-weight: 600;
+}
+
+.member-bio {
+  line-height: 1.68;
+}
+
+.member-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.member-card {
+  display: grid;
+  grid-template-columns: 10rem minmax(0, 1fr);
+  gap: 1.4rem;
+  align-items: start;
+  padding: 1.4rem;
+  border: 1px solid var(--uva-medium-gray);
+  border-top: 4px solid var(--uva-blue);
+}
+
+.member-card__photo {
+  width: 10rem;
+  height: 12rem;
+  object-fit: cover;
+  object-position: center 18%;
+  border-radius: 0.25rem;
+}
+
+.member-card__content h3 {
+  font-size: 1.25rem;
+}
+
+.alumni-section {
+  padding-top: 0.5rem;
+}
+
+.alumni-list {
+  columns: 2;
+  column-gap: 3rem;
+}
+
+.alumni-list li {
+  break-inside: avoid;
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 920px) {
+  .member-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .pi-profile,
+  .member-card {
+    grid-template-columns: 1fr;
+  }
+
+  .pi-profile__photo {
+    width: 12rem;
+    height: 14.5rem;
+  }
+
+  .member-card__photo {
+    width: 9rem;
+    height: 11rem;
+  }
+
+  .alumni-list {
+    columns: 1;
+  }
+}

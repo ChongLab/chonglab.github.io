@@ -1,66 +1,77 @@
 ---
 layout: page
+title: Team
 permalink: /team/
 ---
 
-<div class="team-hero">
-  <h1>Current Members</h1>
-</div>
+<section class="team-section" aria-labelledby="pi-heading">
+  <h2 id="pi-heading" class="team-section__heading">Principal Investigator</h2>
+  {% for member in site.data.team %}
+    {% if member.role == "Principal Investigator" %}
+      <article class="pi-profile">
+        <img class="pi-profile__photo" src="{{ member.photo | relative_url }}" alt="Portrait of {{ member.name }}">
+        <div class="pi-profile__content">
+          <h3>{{ member.name }}</h3>
+          <div class="member-bio">{{ member.bio }}</div>
+          {% if member.social %}
+            <p class="member-links">
+              {% if member.social.LinkedIn %}<a href="{{ member.social.LinkedIn }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>{% endif %}
+              {% if member.social.Site %}<a href="{{ member.social.Site }}" target="_blank" rel="noopener noreferrer">Website</a>{% endif %}
+            </p>
+          {% endif %}
+        </div>
+      </article>
+    {% endif %}
+  {% endfor %}
+</section>
 
-<div class="team-container">
-{% for member in site.data.team %}
-  <article class="team-card">
-    <img class="team-photo" src="{{ member.photo | relative_url }}" alt="Portrait of {{ member.name }}" />
-    <div>
-      <h3>{{ member.name }}</h3>
-      <p><strong>Position:</strong> {{ member.role }}</p>
-      <p>{{ member.bio }}</p>
-      <p>
-        {% if member.social.LinkedIn %}
-          <a href="{{ member.social.LinkedIn }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        {% endif %}
-        {% if member.social.Site %}
-          {% if member.social.LinkedIn %}| {% endif %}
-          <a href="{{ member.social.Site }}" target="_blank" rel="noopener noreferrer">Website</a>
-        {% endif %}
-      </p>
-    </div>
-  </article>
-{% endfor %}
-</div>
+<section class="team-section" aria-labelledby="members-heading">
+  <h2 id="members-heading" class="team-section__heading">Lab Members</h2>
+  <div class="member-grid">
+    {% for member in site.data.team %}
+      {% unless member.role == "Principal Investigator" %}
+        <article class="member-card">
+          <img class="member-card__photo" src="{{ member.photo | relative_url }}" alt="Portrait of {{ member.name }}">
+          <div class="member-card__content">
+            <h3>{{ member.name }}</h3>
+            <p class="member-role">{{ member.role }}</p>
+            <div class="member-bio">{{ member.bio }}</div>
+            {% if member.social %}
+              <p class="member-links">
+                {% if member.social.LinkedIn %}<a href="{{ member.social.LinkedIn }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>{% endif %}
+                {% if member.social.Site %}<a href="{{ member.social.Site }}" target="_blank" rel="noopener noreferrer">Website</a>{% endif %}
+              </p>
+            {% endif %}
+          </div>
+        </article>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</section>
 
-
-
-
-<div class="partners-hero">
-  <h1>Alumni</h1>
-</div>
-<ul class="alumni-list">
-<li>Fengyuan Huang, graduate student, 2019.03–2023.08</li>
-<li>Meghan Moody, undergraduate student, 2021.01–2023.05, now at Graduate School at Baylor College of Medicine</li>
-<li>Yu Chen, graduate student, 2018.03–2022.12, now Scientist of Computational Genomics at Bristol Myers Squibb</li>
-<li>Jenna Ziad Taer, undergraduate intern, 2022.08–2022.11</li>
-<li>Zhengzhi Tan, master intern student, 2021.11–2022.10</li>
-<li>Ethan Vallely, undergraduate intern, 2020.09–2022.08, now at the Medical School at the University of South Alabama</li>
-<li>Shamza Manzoor, MSMBS intern student, 2022.01–2022.08</li>
-<li>Debbie X. Fu, undergraduate intern, 2022.01–2022.05</li>
-<li>Guy Twa, GGB rotation student, 2021.10–2021.12</li>
-<li>Stephanie Cook, undergraduate intern, 2020.12–2021.08</li>
-<li>Yiqing Wang, Ph.D. student, 2020.01–2021.05, switched to the Department of Computer Science</li>
-<li>Shaurita Hutchins, GGB rotation student, 2021.01–2021.03</li>
-<li>Santhosh Kumar Karthikeyan, GBS rotation student, 2021.01–2021.03</li>
-<li>Weisheng Chen, GBS rotation student, 2020.09–2020.12</li>
-<li>Katrina Whitten, undergraduate intern, 2020.09–2020.12</li>
-<li>Colton Miller, Master Intern Student, 2020. 02-2020.07</li>
-<li>Peng Xu, Postdoc fellow, 2017.09–2019.09, now Instructor at Mount Sinai</li>
-<li>Ari Ginsparg, GGB rotation student, 2019.10–2019.12</li>
-<li>Yixin Zhang, undergraduate intern, CS of UAB, 2019.02–2019.05</li>
-<li>Mary Bunton, GGB rotation student, 2018.10–2018.12</li>
-<li>Ming Ye, Associate Professor, Southwest University, China, Visiting Scientist, 2017.10–2018.10</li>
-</ul>
-
-
-<!-- Back to Top Button -->
-<div style="text-align: center; margin-top: 3em;">
-  <a href="#top" style="font-weight: bold; text-decoration: underline;">Back to Top</a>
-</div>
+<section class="team-section alumni-section" aria-labelledby="alumni-heading">
+  <h2 id="alumni-heading" class="team-section__heading">Alumni</h2>
+  <ul class="alumni-list">
+    <li>Fengyuan Huang, graduate student, 2019.03–2023.08</li>
+    <li>Meghan Moody, undergraduate student, 2021.01–2023.05, now at Baylor College of Medicine Graduate School</li>
+    <li>Yu Chen, graduate student, 2018.03–2022.12, now a Scientist of Computational Genomics at Bristol Myers Squibb</li>
+    <li>Jenna Ziad Taer, undergraduate intern, 2022.08–2022.11</li>
+    <li>Zhengzhi Tan, master's intern, 2021.11–2022.10</li>
+    <li>Ethan Vallely, undergraduate intern, 2020.09–2022.08, now at the University of South Alabama College of Medicine</li>
+    <li>Shamza Manzoor, MSMBS intern, 2022.01–2022.08</li>
+    <li>Debbie X. Fu, undergraduate intern, 2022.01–2022.05</li>
+    <li>Guy Twa, GGB rotation student, 2021.10–2021.12</li>
+    <li>Stephanie Cook, undergraduate intern, 2020.12–2021.08</li>
+    <li>Yiqing Wang, Ph.D. student, 2020.01–2021.05</li>
+    <li>Shaurita Hutchins, GGB rotation student, 2021.01–2021.03</li>
+    <li>Santhosh Kumar Karthikeyan, GBS rotation student, 2020.09–2020.12</li>
+    <li>Weisheng Chen, GBS rotation student, 2020.09–2020.12</li>
+    <li>Katrina Whitten, undergraduate intern, 2020.09–2020.12</li>
+    <li>Colton Miller, master's intern, 2020.02–2020.07</li>
+    <li>Peng Xu, postdoctoral fellow, 2017.09–2019.09, now an Instructor at Mount Sinai</li>
+    <li>Ari Ginsparg, GGB rotation student, 2019.10–2019.12</li>
+    <li>Yixin Zhang, undergraduate intern, UAB Computer Science, 2019.02–2019.05</li>
+    <li>Mary Bunton, undergraduate intern, 2018.10–2018.12</li>
+    <li>Ming Ye, Associate Professor, Southwest University, China, Visiting Scientist, 2017.10–2018.10</li>
+  </ul>
+</section>
