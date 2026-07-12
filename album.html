@@ -1,17 +1,17 @@
 ---
 layout: page
+title: Album
 permalink: /album/
 ---
 
 
 <div class="album-page">
-  <h1>Album</h1>
 
   {% for item in site.data.album %}
-    <div style="margin-bottom: 40px;">
-      <img src="/{{ item.photo }}" alt="{{ item.descript }}" style="width: 50%; height: auto; border-radius: 8px;" />
-      <p style="margin-top: 10px; font-weight: bold;">{{ item.descript }}</p>
-    </div>
+    <figure class="album-item">
+      <img src="{{ item.photo | relative_url }}" alt="{{ item.description }}" />
+      <figcaption>{{ item.description }}</figcaption>
+    </figure>
   {% endfor %}
 </div>
 

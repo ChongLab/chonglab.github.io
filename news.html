@@ -1,8 +1,8 @@
 ---
 layout: page
+title: News
 permalink: /news/
 ---
-<h1>News</h1>
 
 
   <!-- Year Navigation -->
@@ -36,16 +36,16 @@ permalink: /news/
         {% for news_item in site.data.news %}
           {% assign m_trimmed = news_item.month | upcase | strip %}
           {% if news_item.year == year and m_trimmed == month %}
-            <li style="margin-bottom: 20px;">
-              <strong style="font-size: 1.25rem;">{{ news_item.title }}</strong><br>
+            <li class="news-item">
+              <strong class="news-title">{{ news_item.title }}</strong><br>
               {% if news_item.description %}
                 <p>{{ news_item.description }}</p>
               {% endif %}
               {% if news_item.photo %}
-                <img src="{{ news_item.photo }}" alt="News Image" style="max-width: 300px; display: block; margin-top: 10px;">
+                <img class="news-image" src="{{ news_item.photo | relative_url }}" alt="{{ news_item.title }}">
               {% endif %}
               {% if news_item.link %}
-                <p><a href="{{ news_item.link }}" target="_blank">More Info</a></p>
+                <p><a href="{{ news_item.link }}" target="_blank" rel="noopener noreferrer">More information</a></p>
               {% endif %}
             </li>
           {% endif %}

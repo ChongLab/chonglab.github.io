@@ -10,7 +10,7 @@
 
 - tag: FusionSeeker
   name: FusionSeeker
-  description: A gene fusion caller for long-read single-molecular sequencing data.
+  description: A gene-fusion caller for long-read single-molecule sequencing data.
   github: https://github.com/ChongLab/FusionSeeker
 
 - tag: DeBreak
@@ -25,12 +25,12 @@
 
 - tag: ClipSV
   name: ClipSV
-  description: ClipSV is a novel method for SV detection based on read extension, spliced alignment, and local assembly. 
+  description: ClipSV is a method for structural-variant detection based on read extension, spliced alignment, and local assembly.
   github: https://github.com/ChongLab/ClipSV
 
 - tag: MRLR
   name: MRLR
-  description: MRLR is a pipeline to identify meiotic recombination events using trio samples of whole genome 10X Genomics sequencing data.
+  description: MRLR is a pipeline for identifying meiotic recombination events in trios using whole-genome 10X Genomics sequencing data.
   github: https://github.com/ChongLab/MRLR
 
 - tag: novoBreak
@@ -40,7 +40,6 @@
 
 - tag: rainbow
   name: rainbow
-  description: Rainbow package consists of several programs used for RAD-seq related clustering and de novo assembly.
+  description: The Rainbow package consists of several programs for RAD-seq-related clustering and de novo assembly.
   github: https://github.com/ChongLab/rainbow
-
 

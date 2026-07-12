@@ -1,25 +1,25 @@
 - name: "Zechen Chong, Ph.D."
   role: "Principal Investigator"
   photo: "team_member/zechen.jpg"
-  bio: "Associate Professor<br>Postdoc with Dr. Ken Chen, MD Anderson Cancer Center, March 2017<br>Ph.D. with Dr. Chung-I Wu, Beijing Insitute of Genomics, Chinese Academy of Sciences, June 2013."
+  bio: "Tenured Associate Professor of Genome Sciences, University of Virginia<br>Assistant Professor, then tenured Associate Professor and Vice Chair for Bioinformatics Research, University of Alabama at Birmingham, through 2026<br>Postdoctoral Fellow, University of Texas MD Anderson Cancer Center, March 2017<br>Ph.D., Beijing Institute of Genomics, Chinese Academy of Sciences, June 2013"
 
 
 - name: "Kaili Hu, M.D., MPH"
   role: "Ph.D. Candidate"
   photo: "team_member/kaili.JPG"
-  bio: "Kaili is a current UAB graduate student in Cell, Molecular, and Developmental Biology theme. She graduated from Ningbo University, School of Medicine, and completed her residency at Ningbo University Affiliated Hospital. To pursue more knowledge in the research field, she came to the US and obtained her MPH in Epidemiology at University of Alabama at Birmingham. She is working on long-read sequencing data analysis."
+  bio: "Kaili is a UAB graduate student in the Cell, Molecular, and Developmental Biology theme. She graduated from the Ningbo University School of Medicine and completed her residency at Ningbo University Affiliated Hospital. To pursue further research training, she came to the United States and earned an MPH in epidemiology from the University of Alabama at Birmingham. Her research focuses on long-read sequencing data analysis."
 
 - name: "Yuwei Song, M.S."
   role: "Ph.D. Candidate"
   photo: "team_member/yuwei.jpeg"
-  bio: "Yuwei is a current UAB graduate student in Genetics, Genomics, and Bioinformatics theme. She graduated from the University of Manitoba with a master’s Degree in Science. During 2019-2021, she worked as a research scholar at Department of Dermatology at UAB. She is currently working on transcriptome data analysis using the Third Generation Sequencing data."
+  bio: "Yuwei is a UAB graduate student in the Genetics, Genomics, and Bioinformatics theme. She graduated from the University of Manitoba with a master’s degree in science. From 2019 to 2021, she worked as a research scholar in the UAB Department of Dermatology. Her research focuses on transcriptome analysis using third-generation sequencing data."
 
 - name: "Zishan Peng, M.S., M.D."
   role: "Ph.D. Candidate"
   photo: "team_member/zishan.jpeg"
-  bio: "Zishan is a current graduate student in the Biomedical Sciences (BIMS) Graduate program at UVA. She earned her Bachelor of Medicine and Bachelor of Surgery degree from China Medical University and a master’s degree in pathology from Fudan University. From 2021 to 2023, she worked as a research fellow at the Vascular Medicine Institute, University of Pittsburgh. She is currently focused on structural variation analysis using long-read sequencing data."
+  bio: "Zishan is a graduate student in the Biomedical Sciences (BIMS) Graduate Program at UVA. She earned her Bachelor of Medicine and Bachelor of Surgery degree from China Medical University and a master’s degree in pathology from Fudan University. From 2021 to 2023, she worked as a research fellow at the Vascular Medicine Institute at the University of Pittsburgh. Her research focuses on structural variation analysis using long-read sequencing data."
 
 - name: "Chia Hsuan Fan, M.S."
-  role: "Data information coordinator"
+  role: "Data Information Coordinator"
   photo: "team_member/fan.JPG"
-  bio: "Chia Hsuan is a staff member in the lab. He graduated from the University of Alabama at Birmingham with a master’s degree in biotechnology. During 2023–2024, he completed an internship in the Department of Biomedical Informatics and Data Science. He is currently developing algorithms for mitochondrial DNA using third-generation sequencing data."
+  bio: "Chia-Hsuan is a staff member in the lab. He graduated from the University of Alabama at Birmingham with a master’s degree in biotechnology. From 2023 to 2024, he completed an internship in the Department of Biomedical Informatics and Data Science. He develops algorithms for analyzing mitochondrial DNA using third-generation sequencing data."

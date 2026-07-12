@@ -52,7 +52,7 @@ Edit here: [publication.yml](https://github.com/chonglab/chonglab.github.io/blob
   journal: bioRxiv 
   doi: https://doi.org/10.1101/2024.07.22.604443
 ```
-[CHONG LAB PUBLICTIONS](https://chonglab.github.io/publications/)
+[CHONG LAB PUBLICATIONS](https://chonglab.github.io/publications/)
 
 
 
@@ -99,14 +99,12 @@ Edit photo: [team_member](https://github.com/chonglab/chonglab.github.io/tree/ma
 Edit here: [album.yml](https://github.com/chonglab/chonglab.github.io/blob/main/_data/album.yml) <br />
 Edit photo: [album photo](https://github.com/chonglab/chonglab.github.io/tree/main/album)
 ```
-- descript: 
+- description:
   photo: album/PHOTO
 ```
 #### example
 ```
-- descript: 2024 ASHG 
+- description: 2024 ASHG
   photo: album/2024_ASHG.JPG
 ```
 [CHONG LAB ALBUM](https://chonglab.github.io/album/)
-
-
