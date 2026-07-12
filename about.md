@@ -1,74 +1,34 @@
 ---
-layout: article
-titles:
-  # @start locale config
-  en      : &EN       About
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
-  ko-KR   : *KO
-  fr      : &FR       À propos
-  fr-BE   : *FR
-  fr-CA   : *FR
-  fr-CH   : *FR
-  fr-FR   : *FR
-  fr-LU   : *FR
-  # @end locale config
-key: page-about
+layout: page
+title: Research
+description: Research interests of the Chong Lab at the University of Virginia.
+permalink: /research/
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+# Research
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+Our lab develops computational methods for analyzing large-scale genomic data and applies these methods to fundamental questions in genome biology and human disease.
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+## Algorithm development for emerging sequencing data
 
-## Features
+The scale and complexity of modern genomic data demand computational methods that are more sensitive, efficient, and precise. Long-read platforms such as PacBio HiFi and Oxford Nanopore generate reads spanning thousands of base pairs, creating powerful opportunities for haplotype resolution, genome assembly, and the study of complex genomic regions.
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+Our lab develops algorithms that address platform-specific errors and analytical challenges while unlocking the full value of these data. We also design methods for emerging technologies, including pangenomics, single-cell sequencing, strand-seq, and other multi-omic platforms.
 
-## Skins
+## Functions and mechanisms of genomic rearrangements
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+Structural variants and other genomic rearrangements play a central role in shaping genetic diversity within and between species. Yet their functions, origins, and biological consequences remain incompletely understood.
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+We investigate these complex events through computational, integrative, and hypothesis-driven approaches. Our work explores structural variation, chromothripsis, and other large-scale rearrangements to reveal how genomes change and how those changes affect phenotype.
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+## Disease genomics
 
-### Highlight Theme
+Disease often emerges from a complex interplay of genetic, epigenetic, and environmental factors. We study this interface by identifying disease-associated variants and integrating genomic, transcriptomic, epigenomic, and clinical data.
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+Through pan-disease, pan-cancer, and multi-omic analyses, we aim to deepen understanding of genotype-to-phenotype relationships and contribute to improved diagnosis, prognosis, and therapeutic strategies.
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+## Collaborations
+
+Complex questions in genomics are best addressed through collaboration. We work with investigators across the University of Virginia and with national and international partners. These collaborations bring together expertise in computation, biology, and medicine and expand our ability to translate new methods into meaningful discoveries.
+
+[Contact us to discuss a collaboration →]({{ '/contact/' | relative_url }})

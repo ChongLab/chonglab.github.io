@@ -257,4 +257,178 @@
   font-size: 1.25rem;
 }
 
+.publication-item,
+.news-item,
+.software-card {
+  margin-bottom: 2rem;
+}
 
+.publication-authors,
+.publication-title,
+.publication-journal,
+.news-title {
+  font-size: 1.15rem;
+}
+
+.software-card {
+  padding: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0.5rem;
+}
+
+.news-image {
+  display: block;
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+  margin-top: 0.75rem;
+}
+
+.album-item img {
+  width: 100%;
+  max-width: 42rem;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.album-item figcaption {
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+
+.lab-logo {
+  display: block;
+  width: 50%;
+  max-width: 32rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.lab-timeline,
+.contact-map-frame {
+  width: 100%;
+  border: 0;
+}
+
+.lab-timeline {
+  height: 650px;
+}
+
+.contact-map-frame {
+  min-height: 28rem;
+}
+
+.alumni-list li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 1rem;
+  }
+
+  .lab-logo {
+    width: 80%;
+    max-width: 24rem;
+  }
+}
+
+/* Simple academic homepage */
+.lab-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 16rem;
+  align-items: center;
+  gap: 4rem;
+  max-width: 68rem;
+  margin: 2rem auto 4rem;
+  padding: 2rem;
+}
+
+.lab-intro h1 {
+  margin: 0 0 0.4rem;
+  color: #134e5e;
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.lab-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.lab-intro__tagline {
+  margin: 0 0 1.5rem;
+  color: #327b88;
+  font-size: 1.35rem;
+}
+
+.lab-intro__text > p:not(.lab-intro__tagline) {
+  font-size: 1.08rem;
+  line-height: 1.75;
+}
+
+.lab-intro__logo {
+  width: 100%;
+  height: auto;
+}
+
+.simple-section {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
+}
+
+.simple-section h2 {
+  color: #134e5e;
+  font-size: 2rem;
+}
+
+.simple-section--bordered {
+  padding-top: 2.5rem;
+  border-top: 1px solid #d6e2e4;
+}
+
+.interest-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.interest-list article {
+  padding-top: 1rem;
+  border-top: 3px solid #59a5ad;
+}
+
+.interest-list h3 {
+  margin-top: 0;
+  color: #205d69;
+  font-size: 1.15rem;
+}
+
+.simple-link {
+  color: #147d8a;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.simple-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+  .lab-intro {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .lab-intro__logo {
+    max-width: 13rem;
+  }
+
+  .interest-list {
+    grid-template-columns: 1fr;
+  }
+}
