@@ -7,7 +7,7 @@ permalink: /publications/
   <h1>Publications</h1>
   <!-- Scholar Link -->
   <p>
-    Visit <a href="https://scholar.google.com/citations?hl=en&user=0gY9Qm4AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a> for more information.
+    Visit <a href="https://scholar.google.com/citations?hl=en&user=0gY9Qm4AAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener noreferrer">Google Scholar</a> for more information.
   </p>
   
 
@@ -26,19 +26,24 @@ permalink: /publications/
     <ul>
       {% for pub in site.data.publication %}
         {% if pub.year == y %}
-          <li>
-            <p style="font-size: 1.15rem;">
+          <li class="publication-item">
+            <p class="publication-authors">
               {{ pub.author }}
             </p>
-            <em style="font-size: 1.15rem;">
+            <cite class="publication-title">
               {{ pub.title }}
-            </em>
+            </cite>
             <br>
-            <strong style="font-size: 1.15rem;">
+            <strong class="publication-journal">
               {{ pub.journal }}
             </strong>
             <br>
-            <a href="{{ pub.doi }}" target="_blank" style="font-size: 1.15rem;">[Abstract]</a>
+            {% if pub.doi contains 'http' %}
+              {% assign publication_url = pub.doi %}
+            {% else %}
+              {% assign publication_url = pub.doi | prepend: 'https://doi.org/' %}
+            {% endif %}
+            <a href="{{ publication_url }}" target="_blank" rel="noopener noreferrer">View publication</a>
           </li>
         {% endif %}
       {% endfor %}
