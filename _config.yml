@@ -29,8 +29,8 @@ description: >
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: en-US
+timezone: America/New_York 
 # In _config.yml
 sass:
   style: compressed
@@ -62,7 +62,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: chonglab.github.io
+repository: ChongLab/chonglab.github.io
 repository_tree: "main"
 
 
@@ -173,7 +173,7 @@ pageview:
 #  google:
 #    custom_search_engine_id: # Google Custom Search Engine ID
 
-permalink: pretty
+#permalink: pretty
 
 ## => Analytics
 ##############################
@@ -212,17 +212,19 @@ exclude:
 
 defaults:
   - scope:
+      path: "assets"
+    values:
+      layout: none
+  - scope:
       path: ""
     values:
-      layout: default
-
+      layout: page
 ## => Plugins
 ##############################
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jemoji
   
 collections:
   news:
