@@ -30,7 +30,7 @@ description: >
 ## => Language and Timezone
 ##############################
 lang: en-US
-timezone: America/New_York 
+timezone: America/New_York
 # In _config.yml
 sass:
   style: compressed
@@ -173,8 +173,6 @@ pageview:
 #  google:
 #    custom_search_engine_id: # Google Custom Search Engine ID
 
-#permalink: pretty
-
 ## => Analytics
 ##############################
 analytics:
@@ -193,21 +191,12 @@ highlighter : rouge
 permalink   : date
 
 exclude:
-  - CHANGELOG.md
-  - HOW_TO_RELEASE.md
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README-*.md
   - README.md
-  - gulpfile.js
   - jekyll-text-theme.gemspec
-  - package-lock.json
-  - package.json
-  - /docs
   - /node_modules
-  - /screenshots
-  - /test
   - /vendor
 
 defaults:
@@ -219,6 +208,7 @@ defaults:
       path: ""
     values:
       layout: page
+
 ## => Plugins
 ##############################
 plugins:

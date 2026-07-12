@@ -2,8 +2,8 @@
 
 
 ## News format
-Edit here: [news.yml](https://github.com/chonglab/chonglab.github.io/blob/master/_data/news.yml)  <br />
-Edit photo: [news_photo](https://github.com/chonglab/chonglab.github.io/tree/master/news_photo)
+Edit here: [news.yml](https://github.com/chonglab/chonglab.github.io/blob/main/_data/news.yml)  <br />
+Edit photo: [news_photo](https://github.com/chonglab/chonglab.github.io/tree/main/news_photo)
 ```
 - year: 
   month: 
@@ -36,7 +36,7 @@ Edit photo: [news_photo](https://github.com/chonglab/chonglab.github.io/tree/mas
 
 
 ## Publications format
-Edit here: [publication.yml](https://github.com/chonglab/chonglab.github.io/blob/master/_data/publication.yml)
+Edit here: [publication.yml](https://github.com/chonglab/chonglab.github.io/blob/main/_data/publication.yml)
 ```
 - year: 
   author: 
@@ -57,27 +57,27 @@ Edit here: [publication.yml](https://github.com/chonglab/chonglab.github.io/blob
 
 
 ## Software format
-Edit here: [software.yml](https://github.com/chonglab/chonglab.github.io/blob/master/_data/software.yml)
+Edit here: [software.yml](https://github.com/chonglab/chonglab.github.io/blob/main/_data/software.yml)
 ```
 - tag: 
   name: 
   description: 
-  download2: 
+  github:
 ```
 #### example
 ```
 - tag: ClipSV
   name: ClipSV
   description: ClipSV is a novel method for SV detection based on read extension, spliced alignment, and local assembly. 
-  download2: https://doi.org/10.1101/2024.07.22.604443
+  github: https://github.com/ChongLab/example
 ```
 [CHONG LAB SOFTWARE](https://chonglab.github.io/software/)
 
 
 
 ## Team format
-Edit here: [team.yml](https://github.com/chonglab/chonglab.github.io/blob/master/_data/team.yml) <br />
-Edit photo: [team_member](https://github.com/chonglab/chonglab.github.io/tree/master/team_member)
+Edit here: [team.yml](https://github.com/chonglab/chonglab.github.io/blob/main/_data/team.yml) <br />
+Edit photo: [team_member](https://github.com/chonglab/chonglab.github.io/tree/main/team_member)
 ```
 - name: ""
   role: ""
@@ -96,8 +96,8 @@ Edit photo: [team_member](https://github.com/chonglab/chonglab.github.io/tree/ma
 
 
 ## Album format
-Edit here: [album.yml](https://github.com/chonglab/chonglab.github.io/blob/master/_data/album.yml) <br />
-Edit photo: [album photo](https://github.com/chonglab/chonglab.github.io/tree/master/album)
+Edit here: [album.yml](https://github.com/chonglab/chonglab.github.io/blob/main/_data/album.yml) <br />
+Edit photo: [album photo](https://github.com/chonglab/chonglab.github.io/tree/main/album)
 ```
 - descript: 
   photo: album/PHOTO
@@ -108,7 +108,5 @@ Edit photo: [album photo](https://github.com/chonglab/chonglab.github.io/tree/ma
   photo: album/2024_ASHG.JPG
 ```
 [CHONG LAB ALBUM](https://chonglab.github.io/album/)
-
-
 
 
