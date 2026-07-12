@@ -1,48 +1,14 @@
-
-<footer class="footer py-4 js-page-footer">
-  <div class="main">
-
-    {%- assign _site_author = site.author -%}
-    {%- if _site_author.type == 'organization' -%}
-      {%- assign _site_author_itemtype = 'http://schema.org/Organization' -%}
-    {%- else -%}
-      {%- assign _site_author_itemtype = 'http://schema.org/Person' -%}
-    {%- endif -%}
-
-    <div itemscope itemtype="{{ _site_author_itemtype }}">
-      <meta itemprop="name" content="{{ _site_author.name }}">
-      {%- assign _site_author_url = _site_author.url | default: '/'-%}
-      {%- include snippets/get-nav-url.html path=_site_author_url -%}
-      {%- assign _site_author_url = __return -%}
-      <meta itemprop="url" content="{{ _site_author_url }}">
-      {%- if _site_author.bio -%}
-        <meta itemprop="description" content="{{ _site_author.bio }}">
-      {%- endif -%}
-      <div class="footer__author-links">
-        {%- include author-links.html author=_site_author -%}
-      </div>
+<footer class="footer site-footer js-page-footer">
+  <div class="site-footer__inner">
+    <div>
+      <p class="site-footer__name">Chong Lab</p>
+      <p>Department of Genome Sciences<br>University of Virginia School of Medicine</p>
     </div>
-    {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
-    {%- assign _locale_copyright_dates = __return -%}
-
-    <div class="site-info mt-2">
-      <div>
-        © Chong Lab 2026  
-      </div>
+    <div class="site-footer__links">
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+      <a href="{{ '/positions/' | relative_url }}">Join Us</a>
+      <a href="https://github.com/ChongLab" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-
-<!--
-<div class="site-info mt-2">
-  <div>
-    {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
-    {%- assign _locale_copyright_dates = __return -%}
-    © {{ site.title }} 2025,
-    Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
-    title="TeXt is a super customizable Jekyll theme." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
-  </div>
-</div>
--->
-
-    
+    <p class="site-footer__copyright">© {{ 'now' | date: '%Y' }} Chong Lab</p>
   </div>
 </footer>
